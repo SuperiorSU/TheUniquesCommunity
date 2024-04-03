@@ -12,18 +12,31 @@ import Accordian from '../components/about/Accordian'
 const About = () => {
   return (
     <div className=''>
+      
         <Hero/>
         <Motto/>
         <div className='p-3'></div>
-        <Review/>
+        <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
+          <Review/>
+        </div>
+        
         <div className='p-3'></div>
-        <Maps/>
+        <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
+          <Maps/>
+        </div>
+      
         <div className='p-3'></div>
         <Guidelines/>
         <div className='p-3'></div>
-        <Stories />
+        <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
+          <Stories />
+        </div>
+        
         <div className='p-3'></div>
-        <Lead/>
+        <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
+          <Lead/>
+        </div>
+        
         <div className='p-3'></div>
         <Accordian/>
         <div className='p-3'></div>
