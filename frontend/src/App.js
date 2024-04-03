@@ -5,6 +5,7 @@ import  { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Navbar from './components/about/Navbar';
 import Clubs from './pages/Clubs';
 import About from './pages/About';
+import Leadpage from './pages/Leadpage';
 function App() {
  const Layout = () => {
     return (
@@ -34,6 +35,10 @@ function App() {
           {
             path: '/communityguidelines',
             element: <CommGuide />
+          },
+          {
+            path: '/leads',
+            element: <Leadpage/>
           }
         ]
       }
@@ -43,13 +48,7 @@ function App() {
   
   return (
     <div>
-<<<<<<< HEAD
       <RouterProvider router={router} />
-=======
-      <Routes>
-          <Route path='/leads' element={<Leadpage text="Lead a Club" />} />
-      </Routes>
->>>>>>> origin/lalan
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import '../leads/Leadpage.css'
-import Button from './Button'
+import "../components/leads/Leadpage.css"
+import Button from '../components/leads/Button'
 import { IoMdPeople } from "react-icons/io";
-import banner from '../../assets/leads/bsnner.png'
+import banner from '../assets/leads/bsnner.png'
 function Leadpage() {
     return (
         <>

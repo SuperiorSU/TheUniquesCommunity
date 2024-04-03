@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                 </li>
                 <li className='py-4 group'>
-                    <Link to="#">Leads</Link>
+                    <Link to="/leads">Leads</Link>
                     <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                 </li>
                 <li className='py-4 group'>
