@@ -9,8 +9,8 @@ const Hero = () => {
             <h1 className='text-6xl py-5 text-[#414f53] text-center lg:text-start md:text-start sm:text-center'><span className='text-[#ca0019]'>The </span>Uniques</h1>
             <p className='text-center lg:text-start md:text-start sm:text-center'>Explore more than 2,100 college and university chapters across more than 100 countries. Meet and learn with other budding developers and build solutions for local businesses and communities with Google technology.</p>
             <div className='my-5 flex gap-x-1 justify-center lg:justify-start md:justify-start'>
-               <Button text='Lead a Club'/>
-               <ButtonHollow text='Join a Club'/>
+               <Button text='Lead a Club' link="#"/>
+               <ButtonHollow text='Join a Club' link="/clubs"/>
             </div>
         </div>
         <div className='lg:w-1/2 md:w-1/2 sm:w-full w-full'>

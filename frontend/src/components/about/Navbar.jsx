@@ -30,14 +30,14 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className='hidden lg:flex md:flex sm:hidden'>
-                <Button text="Login"/>
+                <Button text="Login" link="#"/>
             </div>
             
                 <div className='flex lg:hidden md:hidden sm:flex justify-between items-center w-full'>
                     <div>
                         <img src={logo} width="100" height="100" alt="" />
                     </div>
-                    <GiHamburgerMenu size={40} onClick={clickHandle}/>
+                    <GiHamburgerMenu size={35} onClick={clickHandle}/>
                 </div>
         </nav>
         {
