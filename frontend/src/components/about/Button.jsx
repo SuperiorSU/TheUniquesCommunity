@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
+    const text = props.text;
   return (
-    <div>
-        
+    <div className='inline-block bg-white'>
+         <button className='bg-[#ca0019] text-white min-w-[124px] max-w-[max-content] h-[36px] rounded-[6px]'>{text}</button>
     </div>
   )
 }
