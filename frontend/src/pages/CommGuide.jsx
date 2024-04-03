@@ -1,6 +1,6 @@
 import React from 'react'
-import Main from '../components/Main'
-import Head from '../components/Head'
+import Main from '../components/community/Main'
+import Head from '../components/community/Head'
 const CommGuide = () => {
   return (
     <div>
