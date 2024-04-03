@@ -10,7 +10,7 @@ import Lead from '../components/about/Lead'
 
 const About = () => {
   return (
-    <div>
+    <div className=''>
         <Hero/>
         <Motto/>
         <div className='p-3'></div>

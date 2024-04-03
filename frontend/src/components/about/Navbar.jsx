@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                 </li>
                 <li className='py-4 group'>
-                    <Link to="#">Community Guidelines</Link>
+                    <Link to="/communityguidelines">Community Guidelines</Link>
                     <div className='group-hover:p-[1px] w-[163px] bg-black absolute top-[54px]'></div>
                 </li>
             </ul>

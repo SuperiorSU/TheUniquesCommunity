@@ -5,8 +5,8 @@ import ButtonHollow from './ButtonHollow'
 const Lead = () => {
   return (
     <div>
-        <div className='px-7 py-7'>
-        <div className='flex justify-evenly gap-y-3 items-center sm:flex-wrap md:flex-nowrap lg:flex-nowrap flex-wrap'>
+        <div className='px-9 py-7'>
+        <div className='flex justify-evenly gap-y-7 items-center sm:flex-wrap md:flex-nowrap lg:flex-nowrap flex-wrap'>
             <div className='lg:w-1/2 md:w-1/2 sm:w-full w-full'>
                 <h3 className='text-4xl py-2'>The Uniques Leads</h3>
                 <p className=' pe-6 py-2 text-[17px]'>"Google Developer Student Clubs is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
