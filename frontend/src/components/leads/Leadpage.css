@@ -1,0 +1,121 @@
+.heading{
+    font-size: 44px;
+    color: #ca0019;
+    font-family: sans-serif;
+}
+.para-div
+{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-para{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards-div
+{
+  background-color: #F1F3F4;
+  padding: 50px;
+  margin-top: 50px;
+}
+.card-heading
+{
+    font-size: 34px;
+}
+
+.card
+{
+    width: 350px;
+}
+
+.card-icon
+{
+    font-size: 40px;
+}
+.card-title
+{
+    font-size: 20px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.page-body
+{
+    padding: 50px;
+}
+
+.page-body h1
+{
+    font-size: 34px;
+}
+
+.page-body p
+{
+    font-size: 18px;
+    width: 60%;
+    margin: 20px 0;
+}
+.second-body
+{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap-reverse;
+}
+.left-part
+{
+    width:45%;
+    padding-right: 40px;
+}
+
+.left-part h1
+{
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.left-part p
+{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.img-div
+{
+    width: 50%;
+    object-fit: cover;
+}
+@media(max-width:768px)
+{
+    .left-part
+{
+    width:90%;
+    padding-right: 40px;
+}
+.img-div
+{
+    width: 100%;
+    object-fit: cover;
+}
+.page-body p
+{
+    font-size: 16px;
+    width: 80%;
+    margin: 20px 0;
+}
+}
+
+@media(max-width:500px)
+{
+    .page-body p
+{
+    font-size: 16px;
+    width: 100%;
+    margin: 20px 0;
+}
+}

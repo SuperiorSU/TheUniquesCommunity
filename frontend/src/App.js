@@ -43,7 +43,13 @@ function App() {
   
   return (
     <div>
+<<<<<<< HEAD
       <RouterProvider router={router} />
+=======
+      <Routes>
+          <Route path='/leads' element={<Leadpage text="Lead a Club" />} />
+      </Routes>
+>>>>>>> origin/lalan
     </div>
   );
 }
