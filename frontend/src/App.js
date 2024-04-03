@@ -1,6 +1,6 @@
 import './App.css';
 import Foot from './components/about/Foot';
-import Hero from './components/about/Hero';
+import CommGuide from './pages/CommGuide';
 import  { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Navbar from './components/about/Navbar';
 import Clubs from './pages/Clubs';

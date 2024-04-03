@@ -3,7 +3,7 @@ import React from "react";
 const Stories = () => {
   return (
     <div className="mt-10 mb-10 flex justify-center items-center">
-      <div className="w-full px-7">
+      <div className="w-full px-9">
         <h1 className="text-4xl font-medium">Stories from the community</h1>
         <div className="flex justify-between flex-wrap mt-2 mb-3 items-center">
           <h2>
