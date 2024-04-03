@@ -3,6 +3,7 @@
     color: #ca0019;
     font-family: sans-serif;
 }
+
 .para-div
 {
     width: 55%;
@@ -25,6 +26,7 @@
   padding: 50px;
   margin-top: 50px;
 }
+
 .card-heading
 {
     font-size: 34px;
@@ -39,6 +41,7 @@
 {
     font-size: 40px;
 }
+
 .card-title
 {
     font-size: 20px;
@@ -62,12 +65,14 @@
     width: 60%;
     margin: 20px 0;
 }
+
 .second-body
 {
     display: flex;
     padding: 50px;
     flex-wrap: wrap-reverse;
 }
+
 .left-part
 {
     width:45%;
@@ -85,37 +90,71 @@
     font-size: 18px;
     margin: 20px 0;
 }
+
 .img-div
 {
     width: 50%;
     object-fit: cover;
 }
+
+@media(max-width:1024px)
+{
+    .para-div
+    {
+        width: 70%;
+    }
+
+    .card
+    {
+        width: 300px;
+    }
+
+    .left-part
+    {
+        width: 60%;
+    }
+
+    .img-div
+    {
+        width: 60%;
+    }
+}
+
 @media(max-width:768px)
 {
     .left-part
-{
-    width:90%;
-    padding-right: 40px;
-}
-.img-div
-{
-    width: 100%;
-    object-fit: cover;
-}
-.page-body p
-{
-    font-size: 16px;
-    width: 80%;
-    margin: 20px 0;
-}
+    {
+        width:90%;
+        padding-right: 20px;
+    }
+
+    .img-div
+    {
+        width: 100%;
+    }
+
+    .page-body p
+    {
+        font-size: 16px;
+        width: 80%;
+    }
 }
 
 @media(max-width:500px)
 {
     .page-body p
-{
-    font-size: 16px;
-    width: 100%;
-    margin: 20px 0;
-}
+    {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .card
+    {
+        width: 100%;
+    }
+
+    .left-part
+    {
+        padding-right: 10px;
+    }
 }

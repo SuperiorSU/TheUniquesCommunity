@@ -64,7 +64,7 @@ function Leadpage() {
                 </div>
             </div>
 
-            <div className='page-body'>
+            <div className='page-body text-center md:text-start'>
                 <h1>Become a Google Developer Student Club Lead</h1>
                 <p>The Google Developer Student Clubs application process will open across regions as follows. The program is not offered in certain countries and regions. Please check the application portal for a detailed timeline and list of locations where the program is available.</p>
                 <div className='my-4'>Application open dates</div>
@@ -82,7 +82,7 @@ function Leadpage() {
                 </ul>
                 <Button text="Apply now" />
             </div>
-            <div className='second-body'>
+            <div className='second-body text-center md:text-start'>
                 <div className='left-part'>
                     <h1>Community Guidelines</h1>
                     <p>When you join our programs, you're joining a community. And like any growing community, a few ground rules about expected behavior are good for everyone. These guidelines cover both online (for example, mailing lists and social channels) and offline (for example, in-person meetups) behavior.</p>
