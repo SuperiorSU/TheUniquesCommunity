@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <div className="w-full">
-      <div className="w-2/3 mt-10 flex  flex-col mx-auto text-base mb-10">
+      <div className="w-2/3 mt-10 flex text-center md:text-start   flex-col mx-auto text-base mb-10">
         <h1 className="text-3xl  flex justify-center flex-nowrap">
           The Uniques Community Guidelines and Anti-Harassment Policy for
           In-Person and Virtual Events

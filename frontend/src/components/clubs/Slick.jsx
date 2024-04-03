@@ -46,21 +46,21 @@ const Slick = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1244,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 768,
+        breakpoint: 940,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint:540,
+        breakpoint:598,
         settings:{
           slidesToShow: 1,
           slidesToScroll: 1
