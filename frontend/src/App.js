@@ -1,10 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Main from "./components/Main";
+import Head from "./components/Head";
+
 
 function App() {
   return (
     <div>
-      Let's Start
+      <Head />
+      <Main />
+      <hr />
+      
+      
     </div>
   );
 }
