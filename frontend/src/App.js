@@ -1,45 +1,16 @@
-import './App.css';
-import Foot from './components/about/Foot';
-import Hero from './components/about/Hero';
-import  { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Navbar from './components/about/Navbar';
-import Clubs from './pages/Clubs';
-import About from './pages/About';
-function App() {
- const Layout = () => {
-    return (
-      <div>
-        <Navbar />
-        <Outlet />
-        <Foot />
-      </div>
-    )
-  }
+import "./App.css";
+import Main from "./components/Main";
+import Head from "./components/Head";
 
-  const router = createBrowserRouter([
-    
-      {
-        path: '/',
-        element: <Layout />,
-        children: [
-          {
-            path: '/',
-            element: <About/>
-          },
-          {
-            path: '/clubs',
-            element: <Clubs/>
-          
-          }
-        ]
-      }
-    ]
-  )
- 
-  
+
+function App() {
   return (
     <div>
-      <RouterProvider router={router} />
+      <Head />
+      <Main />
+      <hr />
+      
+      
     </div>
   );
 }
