@@ -13,18 +13,18 @@ const Accordian = () => {
 
     const data = [
         {
-            title: 'Who should join Google Developer Student Clubs?',
-            content: 'College and university students are encouraged to join Google Developer Student Clubs.',
+            title: 'Who should join The Uniques Community?',
+            content: 'College and university students are encouraged to join The Uniques Community.',
             subContent: null
         },
         {
             title: 'Can I join multiple chapters?',
-            content: 'You can participate in events organized by multiple chapters, however if you decide to dedicate yourself to become a GDSC Lead or Core Team Member, you will be officially assigned to one chapter.',
+            content: 'You can participate in events organized by multiple chapters, however if you decide to dedicate yourself to become a TUC Lead or Core Team Member, you will be officially assigned to one chapter.',
             subContent: null
         },
         {
-            title: 'What does a GDSC lead do?',
-            content: "In general, GDSC leaders are focused on the following areas:",
+            title: 'What does a TUC lead do?',
+            content: "In general, TUC leaders are focused on the following areas:",
             subContent: [
                 'Start a club - Work with your university or college to start a student club. Select a core team and faculty advisor to support.',
                 'Host workshops - Grow student knowledge on developer products and platforms through hands-on workshops and events.',
@@ -50,29 +50,29 @@ const Accordian = () => {
             title: 'How do I apply to become a club leader?',
             content: "There are a few steps you need to take to apply to be an organizer.",
             subContent: [
-                'See if there’s a current Google Developer Student Club on your campus or near you. We encourage you to participate or even help organize an event to gain practical experience!',
+                'See if there’s a current The Uniques Community on your campus or near you. We encourage you to participate or even help organize an event to gain practical experience!',
                 'Read the community guidelines.',
-                'Submit your GDSC Lead application.',
+                'Submit your TUC Lead application.',
                 "We'll review your submission and get back to you via email as soon as possible.",
             ]
         },
         {
-            title: 'What are the benefits of becoming a GDSC lead?',
+            title: 'What are the benefits of becoming a TUC lead?',
             content: "There are a few steps you need to take to apply to be an organizer.",
             subContent: [
-                'Professional growth - Access to community management training and technical knowledge to help you be a stronger leader, and receive invitations to select Google events.',
-                'Network growth - Access to a global network of student leaders, professional community organizers, industry experts, and Googlers to gain mentorship and share knowledge.',
+                'Professional growth - Access to community management training and technical knowledge to help you be a stronger leader, and receive invitations to select The Uniques events.',
+                'Network growth - Access to a global network of student leaders, professional community organizers, industry experts, and Uniques to gain mentorship and share knowledge.',
                 'Community learning - Dedicated support to help educate and expand your community online and in-person.',
             ]
         },
         {
             title: 'What is the time commitment?',
-            content: "GDSC Leads should be available to run an event ideally once a month, and at least every three months to remain an active GDSC chapter. Additionally, running a GDSC is a one year commitment.",
+            content: "TUC Leads should be available to run an event ideally once a month, and at least every three months to remain an active TUC chapter. Additionally, running a TUC is a one year commitment.",
             subContent: null
         },
         {
-            title: 'What is the timeline for applying for the GDSC Lead position?',
-            content: "We accept applications once per year, between April and August. Please follow this page for the new deadlines and the GDSC events platform to check current chapters.",
+            title: 'What is the timeline for applying for the TUC Lead position?',
+            content: "We accept applications once per year, between April and August. Please follow this page for the new deadlines and the TUC events platform to check current chapters.",
             subContent: null
         },
     ]

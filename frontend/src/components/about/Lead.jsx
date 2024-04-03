@@ -9,7 +9,7 @@ const Lead = () => {
         <div className='flex justify-evenly gap-y-7 items-center sm:flex-wrap md:flex-nowrap lg:flex-nowrap flex-wrap'>
             <div className='lg:w-1/2 md:w-1/2 sm:w-full w-full'>
                 <h3 className='text-4xl py-2'>The Uniques Leads</h3>
-                <p className=' pe-6 py-2 text-[17px]'>"Google Developer Student Clubs is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
+                <p className=' pe-6 py-2 text-[17px]'>"The Uniques Community is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
                 <br/>
                 <p>Read the FAQ below for details on the application process.</p>
                 <br/>
@@ -24,7 +24,7 @@ const Lead = () => {
                         The Uniques Campus Club
                     </div>
                     <div>
-                        <h2 className='text-4xl py-4'>GDSC Spotlight: A conversation with GDSC lead, Evolone Layne</h2>
+                        <h2 className='text-4xl py-4'>TUC Spotlight: A conversation with TUC lead, Evolone Layne</h2>
                         <ButtonHollow text="Watch Now"/>
                     </div>
                 </div>

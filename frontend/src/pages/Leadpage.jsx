@@ -6,10 +6,10 @@ import banner from '../assets/leads/bsnner.png'
 function Leadpage() {
     return (
         <>
-            <h1 className='text-center heading m-4'>Google Developer Student Clubs Leads</h1>
+            <h1 className='text-center heading m-4'>The Uniques Community</h1>
             <div className='para-div'>
-                <p className=' first-para'>Google Developer Student Club Leads are passionate leaders at their universities who are dedicated to helping their peers learn and connect. Leads are undergraduate or graduate university students pursuing various degrees, yet have foundational knowledge of software development concepts.</p>
-                <p className=' first-para m-4'>Google collaborates with Leads and supports them as they start and grow their on-campus communities.</p>
+                <p className=' first-para'>The Uniques Community Leads are passionate leaders at their universities who are dedicated to helping their peers learn and connect. Leads are undergraduate or graduate university students pursuing various degrees, yet have foundational knowledge of software development concepts.</p>
+                <p className=' first-para m-4'>The Uniques collaborates with Leads and supports them as they start and grow their on-campus communities.</p>
                 <Button text="Apply now" />
             </div>
             <div className='cards-div'>
@@ -65,8 +65,8 @@ function Leadpage() {
             </div>
 
             <div className='page-body text-center md:text-start'>
-                <h1>Become a Google Developer Student Club Lead</h1>
-                <p>The Google Developer Student Clubs application process will open across regions as follows. The program is not offered in certain countries and regions. Please check the application portal for a detailed timeline and list of locations where the program is available.</p>
+                <h1>Become a The Uniques CommunityLead</h1>
+                <p>The The Uniques Community application process will open across regions as follows. The program is not offered in certain countries and regions. Please check the application portal for a detailed timeline and list of locations where the program is available.</p>
                 <div className='my-4'>Application open dates</div>
                 <ul>
                     <li>February 22, 2024 - India</li>

@@ -9,7 +9,7 @@ const Review = () => {
             </div>
             <div className='lg:w-1/2 md:w-1/2 sm:w-full w-full'>
                 
-                <p className=' p-6 text-[17px] text-center'>"Google Developer Student Clubs is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
+                <p className=' p-6 text-[17px] text-center'>"The Uniques Community is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
             </div>
         </div>
     </div>
