@@ -25,6 +25,7 @@ const About = () => {
         <Lead/>
         <div className='p-3'></div>
         <Touchh/>
+        <div className='p-3'></div>
 
     </div>
   )
