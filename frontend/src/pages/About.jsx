@@ -7,6 +7,7 @@ import Review from '../components/about/Review'
 import Touchh from '../components/about/Touchh'
 import Stories from '../components/about/Stories'
 import Lead from '../components/about/Lead'
+import Accordian from '../components/about/Accordian'
 
 const About = () => {
   return (
@@ -24,8 +25,9 @@ const About = () => {
         <div className='p-3'></div>
         <Lead/>
         <div className='p-3'></div>
-        <Touchh/>
+        <Accordian/>
         <div className='p-3'></div>
+        <Touchh/>
 
     </div>
   )
