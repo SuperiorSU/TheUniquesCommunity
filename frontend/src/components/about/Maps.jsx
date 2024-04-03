@@ -7,7 +7,7 @@ const Maps = () => {
         <div className=''>
           <div className='flex justify-between items-center'>
             <div>
-              <h2 className='font-medium text-3xl pb-3'>Find a chapter</h2>
+              <h2 className='font-medium text-4xl pb-3'>Find a chapter</h2>
               <p className='pb-2'>Connect in-person or virtually with student technologists across the globe.</p>
             </div>
             <div>

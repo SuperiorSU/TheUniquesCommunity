@@ -24,11 +24,7 @@ function App() {
         children: [
           {
             path: '/',
-<<<<<<< HEAD
             element: <About/>
-=======
-            element:<About />
->>>>>>> ed110c3833ba9d01071a7e1fcd98243e47baf7d1
           },
           {
             path: '/clubs',
