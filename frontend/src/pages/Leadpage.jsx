@@ -2,7 +2,10 @@ import React from "react";
 import "../components/leads/Leadpage.css";
 import Button from "../components/leads/Button";
 import { IoMdPeople } from "react-icons/io";
-import banner from "../assets/leads/bsnner.png";
+
+import ambass from "../assets/leads/Ambassador.png"
+import ButtonHollow from "../components/about/ButtonHollow";
+
 function Leadpage() {
   const extractedData = [
     {
@@ -19,6 +22,43 @@ function Leadpage() {
       title: "Lead Project Development Initiatives",
       description:
         "Collaborate with local organizations to identify project opportunities and spearhead collective project development initiatives. By closely partnering with local entities, Uniques Community Ambassadors can facilitate impactful projects that benefit both students and the broader community.",
+    },
+  ];
+  const extractedData1 = [
+    {
+      title: "Minimum One Year Until Graduation:",
+      description:
+        "Applicants should have at least one year remaining until graduation from their undergraduate or graduate program.        ",
+    },
+    {
+      title: "Full-Time Enrollment:",
+      description:
+        " Applicants must be enrolled full-time in an undergraduate or graduate program at a college or university",
+    },
+    {
+      title: "Commitment:",
+      description:
+        "Individuals must commit to the program for a minimum of one year, demonstrating dedication to their role as a Lead.",
+    },
+    {
+      title: "Passion for Impact:",
+      description:
+        "Applicants should be passionate about creating positive impact within their community and fostering growth and collaboration among peers.",
+    },
+    {
+      title: "Technical Understanding:",
+      description:
+        "Individuals should possess a foundational understanding of computer programming and/or software engineering concepts, enabling them to effectively lead technical discussions and initiatives within the community.",
+    },
+    {
+      title: "Event Planning Experience:",
+      description:
+        "Preference will be given to applicants with prior experience in event planning or leading a team, demonstrating their ability to organize and execute successful community events.",
+    },
+    {
+      title: "Connection to Local Developer Community:",
+      description:
+        "Applicants should have a connection to the local developer community, whether through participation in related events, engagement with local tech organizations, or active involvement in developer forums and groups.",
     },
   ];
 
@@ -76,7 +116,9 @@ function Leadpage() {
             </span>
             <br />
             <br />
-            <b className="w-[fit-content] text-lg">Expand Your Network - &nbsp; </b>
+            <b className="w-[fit-content] text-lg">
+              Expand Your Network - &nbsp;{" "}
+            </b>
             <span>
               By joining The Uniques Community, you'll tap into a vast global
               network encompassing student leaders, seasoned community
@@ -87,7 +129,9 @@ function Leadpage() {
             </span>
             <br />
             <br />
-            <b className="w-[fit-content] text-lg">Community Empowerment - &nbsp; </b>
+            <b className="w-[fit-content] text-lg">
+              Community Empowerment - &nbsp;{" "}
+            </b>
             <span>
               Benefit from dedicated support from The Uniques Community to
               bolster your efforts in educating and expanding the community,
@@ -96,55 +140,36 @@ function Leadpage() {
               inclusive community ecosystem.
             </span>
           </div>
-          <div className="my-4">Application open dates</div>
-          <ul>
-            <li>February 22, 2024 - India</li>
-            <li>
-              March 1, 2024 - North America, Europe, Pakistan, Middle East and
-              North Africa, Sub-Saharan Africa, Turkey, Central Asia, and
-              Caucasus
-            </li>
-            <li>
-              April 1, 2024 - Australia, New Zealand, South Korea, Japan, ASEAN,
-              Taiwan, and Hong Kong
-            </li>
-          </ul>
-
-          <div className="my-4">Application open dates</div>
-          <ul className="mb-4">
-            <li>February 22, 2024 - India</li>
-            <li>
-              March 1, 2024 - North America, Europe, Pakistan, Middle East and
-              North Africa, Sub-Saharan Africa, Turkey, Central Asia, and
-              Caucasus
-            </li>
-            <li>
-              April 1, 2024 - Australia, New Zealand, South Korea, Japan, ASEAN,
-              Taiwan, and Hong Kong
-            </li>
-          </ul>
-          <Button text="Apply now" />
+        </div>
+      </div>
+      <div className="cards-div">
+        <h1 className=" card-heading m-4 mb-10 text-center">
+         What is the <span className="font-bold">Criteria</span> For Being a Ambassador ?
+        </h1>
+        <div className="flex flex-wrap justify-evenly items-center">
+          {extractedData1.map((item, index) => {
+            return (
+              <div key={index} className="card p-4">
+                <IoMdPeople className="card-icon" />
+                <h3 className="card-title">{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
 
       <div className="second-body text-center md:text-start">
-        <div className="left-part">
+        <div className="left-part my-auto">
           <h1>Community Guidelines</h1>
           <p>
-            When you join our programs, you're joining a community. And like any
-            growing community, a few ground rules about expected behavior are
-            good for everyone. These guidelines cover both online (for example,
-            mailing lists and social channels) and offline (for example,
-            in-person meetups) behavior.
+          The Uniques Community is committed to fostering a safe, inclusive, and harassment-free environment for all participants, regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We believe that every individual deserves to participate in our events without fear of harassment, discrimination, or condescension.
           </p>
-          <p>
-            Violations of this code of conduct can result in members being
-            removed from the program. Use your best judgment, and if you'd like
-            more clarity or have questions feel free to reach out.
-          </p>
+         
+          <div className="mt-10"><ButtonHollow  link="/communityguidelines" text="Read More" /></div>
         </div>
         <div className="img-div">
-          <img src={banner} alt="" />
+          <img src={ambass} width={600} className="mx-auto" alt="new" />
         </div>
       </div>
     </>
