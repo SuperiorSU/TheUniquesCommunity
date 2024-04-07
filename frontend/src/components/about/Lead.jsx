@@ -14,9 +14,7 @@ const Lead = () => {
                 <br/>
                 <p>Read the FAQ below for details on the application process.</p>
                 <br/>
-                <div className='flex items-center gap-2'>
-                    <Button text="Lead a Club"/>
-                </div>
+               
             </div>
             <div className='w-full flex items-center justify-center'>
                 <img src={lady} width={300}/>
