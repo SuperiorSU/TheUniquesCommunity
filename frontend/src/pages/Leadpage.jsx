@@ -3,7 +3,7 @@ import "../components/leads/Leadpage.css";
 import Button from "../components/leads/Button";
 import { IoMdPeople } from "react-icons/io";
 
-import ambass from "../assets/leads/Ambassador.png"
+import ambass from "../assets/leads/Ambassador.png";
 import ButtonHollow from "../components/about/ButtonHollow";
 
 function Leadpage() {
@@ -59,6 +59,45 @@ function Leadpage() {
       title: "Connection to Local Developer Community:",
       description:
         "Applicants should have a connection to the local developer community, whether through participation in related events, engagement with local tech organizations, or active involvement in developer forums and groups.",
+    },
+  ];
+
+  const communityGuidelines = [
+    {
+      id: 1,
+      title: "Host Regular Events",
+      description:
+        "Organize and host events, ideally once a month, to foster engagement and learning within your community. Aim to host a total of four events throughout the year, covering a diverse range of topics and formats to cater to the interests and needs of your members.",
+    },
+    {
+      id: 2,
+      title: "Report Activities",
+      description:
+        "Regularly report your chapter's activities on the designated event platform. This helps track progress, share insights, and ensure transparency across the community.",
+    },
+    {
+      id: 3,
+      title: "Build a Core Team",
+      description:
+        "Assemble a dedicated core team to support you in organizing events, workshops, and other community initiatives. Collaborate closely with your team to delegate tasks, leverage each other's strengths, and ensure the smooth execution of activities.",
+    },
+    {
+      id: 4,
+      title: "Participate in Program Campaigns",
+      description:
+        "Actively participate in program campaigns and events initiated by The Unique Community. These campaigns provide valuable opportunities to amplify your chapter's impact, collaborate with other chapters, and contribute to larger community initiatives.",
+    },
+    {
+      id: 5,
+      title: "Engage with Regional Lead and Community Manager",
+      description:
+        "Maintain regular communication with your Regional Lead and Community Manager for guidance, support, and mentorship. Schedule periodic meetings to discuss challenges, share successes, and seek advice on community-building strategies.",
+    },
+    {
+      id: 6,
+      title: "Adhere to Code of Conduct",
+      description:
+        "Uphold the Community Organizer Code of Conduct at all times, fostering an inclusive, respectful, and safe environment for all community members. Lead by example and ensure that all activities align with the values and principles of The Unique Community.",
     },
   ];
 
@@ -144,7 +183,8 @@ function Leadpage() {
       </div>
       <div className="cards-div">
         <h1 className=" card-heading m-4 mb-10 text-center">
-         What is the <span className="font-bold">Criteria</span> For Being a Ambassador ?
+          What is the <span className="font-bold">Criteria</span> For Being a
+          Ambassador ?
         </h1>
         <div className="flex flex-wrap justify-evenly items-center">
           {extractedData1.map((item, index) => {
@@ -163,13 +203,42 @@ function Leadpage() {
         <div className="left-part my-auto">
           <h1>Community Guidelines</h1>
           <p>
-          The Uniques Community is committed to fostering a safe, inclusive, and harassment-free environment for all participants, regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We believe that every individual deserves to participate in our events without fear of harassment, discrimination, or condescension.
+            The Uniques Community is committed to fostering a safe, inclusive,
+            and harassment-free environment for all participants, regardless of
+            gender identity and expression, sexual orientation, disabilities,
+            neurodiversity, physical appearance, body size, ethnicity,
+            nationality, race, age, religion, or other protected category. We
+            believe that every individual deserves to participate in our events
+            without fear of harassment, discrimination, or condescension.
           </p>
-         
-          <div className="mt-10"><ButtonHollow  link="/communityguidelines" text="Read More" /></div>
+
+          <div className="mt-10">
+            <ButtonHollow link="/communityguidelines" text="Read More" />
+          </div>
         </div>
         <div className="img-div">
           <img src={ambass} width={600} className="mx-auto" alt="new" />
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center ">
+        <div className="page-body text-center w-[80%]   md:text-start">
+          <h1 className="font-bold mb-10 md:text-xl">Responsibilities of an Ambassador</h1>
+
+          {communityGuidelines.map((item) => {
+            return (
+              <div className="mt-10">
+                <b className="w-[fit-content] md:text-lg">
+                  {item.title} - &nbsp;{" "}
+                </b>
+                <span>
+                 {item.description}
+                </span>
+                <br />
+                <br />
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
