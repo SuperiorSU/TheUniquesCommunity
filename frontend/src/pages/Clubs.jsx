@@ -27,7 +27,7 @@ const Clubs = () => {
         </div>
       </section>
       <section className="w-full my-7 py-7">
-        <div className="wrapper w-full flex flex-col items-center justify-center  h-[31.25rem] ">
+        <div className="wrapper w-full flex flex-col items-center justify-center ">
           <div className="mb-5">
             <h2 className=" text-3xl md:text-4xl  lg:text-5xl  text-[#1e1e1b] mb-8">
               Our Past Events
@@ -37,7 +37,7 @@ const Clubs = () => {
         </div>
       </section>
       <section className="w-full my-7 py-7">
-        <div className="wrapper w-full flex flex-col items-center justify-center  h-[31.25rem] ">
+        <div className="wrapper w-full flex flex-col items-center justify-center ">
           <div className="mb-5">
             <h2 className=" text-3xl md:text-4xl  lg:text-5xl  text-[#1e1e1b] mb-8">
               Our mentors…
@@ -47,7 +47,7 @@ const Clubs = () => {
         </div>
       </section>
       <section className="w-full my-7 py-7">
-        <div className="wrapper w-full flex flex-col items-center justify-center  h-[31.25rem] ">
+        <div className="wrapper w-full flex flex-col items-center justify-center ">
           <div className="mb-5">
             <h2 className=" text-3xl md:text-4xl  lg:text-5xl  text-[#1e1e1b] mb-8">
               Our member...
