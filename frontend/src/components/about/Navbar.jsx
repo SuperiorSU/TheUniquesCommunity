@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from 'react-router-dom'
 import Button from './Button';
+
 import logo from '../../assets/about/uniques.png'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,8 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
   return (
-    <div>
-        <nav className='bg-white px-3 shadow-md flex justify-between items-center'>
+    <div className='border-b'>
+        <nav className='bg-white px-7 shadow-md flex justify-between items-center'>
             <ul className='gap-5 list-none font-[450] text-black/80 relative hidden lg:flex md:flex sm:hidden'>
                 <li className='py-4 group'>
                     <Link to="/">About</Link>

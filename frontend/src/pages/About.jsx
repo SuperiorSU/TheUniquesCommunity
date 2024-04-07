@@ -14,8 +14,10 @@ const About = () => {
     <div className=''>
       
         <Hero/>
+        <div className='w-full p-[30px]'></div>
         <Motto/>
-        <div className='p-3'></div>
+        <div className='w-full p-[30px]'></div>
+        
         <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
           <Review/>
         </div>

@@ -102,9 +102,8 @@ const Slick = () => {
                 {/* for left icons and places we can say */}
                 <div className='flex'>
                 <IoIosPeople className='mr-2 my-auto text-[18px] text-[#ca0019]'/>
-                <p className='text-[14px] p-0 m-0 my-auto font-light tracking-wider'>SVIET</p>
+                <p className='text-[14px] p-0 m-0 my-auto font-light tracking-wider'>SVGOI</p>
                 </div>
-
                 <div className='flex'>
                 <FaCalendarCheck className="mr-2 my-auto text-[14px] text-[#ca0019]"/>
                 <p className='text-[14px] p-0 m-0 my-auto font-light tracking-wider'>{item.date}</p>

@@ -9,13 +9,7 @@ const Main = () => {
           In-Person and Virtual Events
         </h1>
         <div className="10/12 mt-8 flex  flex-nowrap flex-col">
-          The Uniques" is dedicated to providing a harassment-free and inclusive
-          event experience for everyone regardless of gender identity and
-          expression, sexual orientation, disabilities, neurodiversity, physical
-          appearance, body size, ethnicity, nationality, race, age, religion, or
-          other protected category. We do not tolerate harassment of event
-          participants in any form. "The Uniques" takes violations of our policy
-          seriously and will respond appropriately.
+          The Uniques Community is committed to fostering a safe, inclusive, and harassment-free environment for all participants, regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or other protected category. We believe that every individual deserves to participate in our events without fear of harassment, discrimination, or condescension.
           <br></br>
           <br />
           All participants of "The Uniques" events, including in-person and
@@ -24,97 +18,70 @@ const Main = () => {
           <br></br>
           <br />
           <div>
-            <b className="w-[fit-content]">Be respectful to each other.</b>
+            <b className="w-[fit-content]">Respectful Conduct: &nbsp; </b>
             <span>
-              Treat everyone with respect. Participate while acknowledging that
-              everyone deserves to be here — and each of us has the right to
-              enjoy our experience without fear of harassment, discrimination,
-              or condescension, whether blatant or via micro-aggressions. All
-              forms of communication should not demean others. Consider what you
-              are saying and how it would feel if it were said to you or about
-              you.
+              All participants, including attendees, speakers, organizers, and staff, are expected to treat each other with respect. We value diverse perspectives and experiences and encourage constructive communication that uplifts and supports others.
+
             </span>
           </div>
           <br />
           <div>
             <b className="w-[fit-content]">
-              Speak up if you see or hear something.
+              Speaking Up: &nbsp;
             </b>
             <span>
-              Harassment is not tolerated, and you are empowered to politely
-              engage when you or others are disrespected. The person making you
-              feel uncomfortable may not be aware of what they are doing, and
-              politely bringing their behavior to their attention is encouraged.
+              If you witness or experience behavior that makes you feel uncomfortable, you are encouraged to speak up and politely address the situation. Harassment in any form is not tolerated, and we rely on all participants to uphold our community standards.
             </span>
           </div>
           <br />
           <div>
-            We have a <b>ZERO TOLERANCE POLICY </b> for in-person or online
-            harassment of any kind, including but not limited to:
-            <div>
-              <ul className="list-disc list-inside md:grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 text-start gap-x-4 gap-y-3">
-                <li>Stalking/following</li>
-                <li>Offensive verbal language</li>
-                <li>Inappropriate physical contact</li>
-                <li>Deliberate intimidation</li>
-                <li>Harassing photography or recording</li>
-                <li>Unwelcome sexual or physical attention</li>
-                <li>Sustained disruption of talks or other events</li>
-                <li>Sexual imagery and language in public spaces</li>
-                <li>Physical or cyber threats</li>
-                <li>
-                  Verbal language that reinforces social structures of
-                  domination
-                </li>
+            <b>Examples of Prohibited Behavior Includes : &nbsp;</b>
+            <div className="mt-4">
+              <ul className="text-center list-disc list-inside md:grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 gap-x-4 gap-y-3">
+                <li> Stalking or following others</li>
+                <li> Deliberate intimidation</li>
+                <li> Offensive verbal language</li>
+                <li>Unwelcome physical contact</li>
+                <li>Harassment based on protected categories</li>
+                <li> Disruption of event activities</li>
+
               </ul>
             </div>
             <br />
-            <div>
-              <b>In relation to, but not limited to:</b>
-              <ul className="list-disc list-inside md:grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 text-start gap-x-4 gap-y-3">
-                <li>Neurodiversity</li>
-                <li>Gender expression</li>
-                <li>Appearance</li>
-                <li>Race</li>
-                <li>Sexual orientation</li>
-                <li>Religion</li>
-                <li>Color</li>
-                <li>Age</li>
-                <li>Pregnancy</li>
-                <li>National origin</li>
-                <li>Body size</li>
-                <li>Military status</li>
-                <li>Gender identity</li>
-                <li>Disabilities</li>
-                <li>Social demographic</li>
-              </ul>
-            </div>
+          </div>
+          <div>
+            <b className="w-[fit-content]">
+              Reporting: &nbsp;
+            </b>
+            <span>
+              If you experience or witness harassment or inappropriate behavior, please report it to the event organizers immediately. Reports can be filed anonymously, and all complaints will be thoroughly investigated and addressed.
+            </span>
+          </div>
+          <br />
+          <div>
+            <b className="w-[fit-content]">
+              Consequences: &nbsp;
+            </b>
+            <span>
+              Individuals found to have violated our community guidelines or engaged in harassment may be subject to expulsion from the event without refund or further action deemed necessary by the organizers.
+
+            </span>
+          </div>
+          <br />
+          <div>
+            <b className="w-[fit-content]">
+              Our Commitment: &nbsp;
+            </b>
+            <span>
+              The Uniques Community is dedicated to providing a welcoming and inclusive environment for all participants. We reserve the right to refuse admittance or remove individuals from our events who fail to comply with our policies and uphold our community values.
+            </span>
           </div>
           <br />
           <p>
-            Participants asked to stop any harassing behavior are expected to
-            comply immediately. Our zero tolerance policy means that we will
-            look into and review every allegation of violation of our Event
-            Community Guidelines and Anti-Harassment Policy and respond
-            appropriately. To report any behavior that makes you or others feel
-            uncomfortable, visit your event's website to file a report to your
-            event's organizers.
+            Together, we can create a supportive and respectful space where everyone can learn, grow, and connect without fear of harassment or discrimination. Thank you for helping us maintain the integrity of our community.
+
           </p>
-          <br />
-          <p>
-            This policy extends to talks, forums, workshops, codelabs, social
-            media, all attendees, partners, sponsors, volunteers, staff, etc.
-            You catch our drift. "The Uniques" reserves the right to refuse
-            admittance to, or remove any person from, any "The Uniques" hosted
-            event (including future "The Uniques" events) at any time in its
-            sole discretion. This includes, but is not limited to, attendees
-            behaving in a disorderly manner or failing to comply with this
-            policy, and the terms and conditions herein. If a participant
-            engages in harassing or uncomfortable behavior, the conference
-            organizers may take any action they deem appropriate, including
-            warning or expelling the offender from the conference with no refund
-            or blocking the offender’s account from participating online.
-          </p>
+
         </div>
       </div>
     </div>
