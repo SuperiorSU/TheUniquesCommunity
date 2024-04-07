@@ -3,11 +3,11 @@ import ButtonHollow from './ButtonHollow'
 
 const Maps = () => {
   return (
-    <div className='px-9 py-7'>
+    <div className='w-11/12 mx-auto py-12'>
         <div className=''>
           <div className='flex justify-between items-center'>
             <div className='py-5'>
-              <h2 className='font-medium lg:text-4xl md:text-4xl sm:text-4xl text-3xl pb-3'>Find a chapter</h2>
+              <h2 className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl pb-3'>Our <span className='text-rose-800'>Chapters</span></h2>
               <p className='pb-2'>Connect in-person or virtually with student technologists across the globe.</p>
             </div>
             <div>

@@ -1,10 +1,15 @@
 import React from "react";
 import stand from "../../assets/about/stand.png";
+import { FaQuoteLeft } from "react-icons/fa";
 const Review = () => {
   return (
-    <div className="px-9 py-7 justify-center items-center ">
+    <div className="w-11/12 mx-auto py-12 justify-center items-center ">
       <div className="w-full text-center h-[maxcontent]">
-        <p className=" p-6 text-[17px] md:w-[50%] mx-auto text-center">
+        <p className="text-3xl font-bold">
+          What Are <span className="text-rose-800">We?</span>
+        </p>
+        <p className=" p-6 text-sm lg:text-lg mx-auto text-center">
+          <FaQuoteLeft className="text-center mx-auto mb-5"/>
           "The Uniques Community is a community where everyone is welcome. We
           help students bridge the gap between theory and practice and grow
           their knowledge by providing a peer-to-peer learning environment, by

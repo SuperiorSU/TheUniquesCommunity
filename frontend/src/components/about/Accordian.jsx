@@ -78,8 +78,8 @@ const Accordian = () => {
     ]
 
   return (
-    <div className="mt-10 mb-10 md:px-7 flex justify-center items-center">
-      <div className="w-full px-9">
+    <div className="w-11/12 mx-auto mt-10 mb-10 md:px-7 flex justify-center items-center">
+      <div className="w-full">
         <h2 className="font-semibold text-3xl mb-5">FAQs</h2>
         {
             data.map((item, index) => {
