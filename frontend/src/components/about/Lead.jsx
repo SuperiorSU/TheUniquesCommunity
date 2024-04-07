@@ -12,7 +12,7 @@ const Lead = () => {
                 <h3 className='text-4xl py-2 font-bold'>The Uniques <span className="text-red-800">Leads</span></h3>
                 <p className=' pe-6 py-2 text-sm lg:text-md'>"The Uniques Community is a community where everyone is welcome. We help students bridge the gap between theory and practice and grow their knowledge by providing a peer-to-peer learning environment, by conducting workshops, study jams and building solutions for local businesses."</p>
                 <br/>
-                <p>Read the FAQ below for details on the application process.</p>
+                 <p>Read the FAQ below for details on the application process.</p>
                 <br/>
                
             </div>
