@@ -10,10 +10,10 @@ import Mentors from '../components/chapter/Mentors'
 import Faculty from '../components/chapter/Faculty'
 
 
-const Campus = () => {
+const Campus = ({event}) => {
 
     const chapter = {
-        name: "TheUnqies SVIET",
+        name: "TheUniques | SVIET",
         logo: "",
         backdrop: "",
         description: "",
@@ -60,7 +60,7 @@ const Campus = () => {
             <div className="w-10/12 mx-auto">
                 <Mentors />
                 <Faculty />
-                <Slick />
+                <Slick events={event} />
             </div>
         </div>
     )

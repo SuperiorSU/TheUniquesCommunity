@@ -12,6 +12,9 @@ import EventForm from './pages/EventForm';
 import EventList from './pages/EventList';
 import Event from './pages/Event';
 import Campus from './pages/Campus';
+
+import sm from './mantra logo.png'
+
 function App() {
 
   const event = [
@@ -388,7 +391,7 @@ function App() {
       id:2,
       chapter: "The Uniques | SVIET",
       headerImage: "https://pbs.twimg.com/media/FqSl9vhaAAE0Vlu?format=jpg&name=4096x4096",
-      logo: "https://assets.devfolio.co/hackathons/d111a298717f42e0b647027976e265b0/assets/cover/87.jpeg",
+      logo: sm,
       name: "Success Mantra",
       date: "March 03, 2023",
       venue: "SVIET Campus",
@@ -484,7 +487,7 @@ function App() {
         },
         {
           path: '/clubs',
-          element: <Clubs />
+          element: <Clubs event={event} />
 
         },
         {
@@ -517,7 +520,7 @@ function App() {
         },
         {
           path: '/chapter',
-          element: <Campus />
+          element: <Campus event={event} />
         },
       ]
     }
