@@ -21,21 +21,21 @@ function Leadpage() {
       title: "Launch or Expand Your Community Presence",
       description:
         "As a Uniques Community Ambassador, you have the chance to kickstart or enrich a student club at your university. Collaborate with university officials to establish a student club, gather a committed core team, and appoint a faculty advisor to offer guidance and assistance.",
-      icon: IoMdPeople
+
     },
     {
       imgs: img9,
       title: "Conduct Engaging Workshops",
       description:
         "Coordinate workshops within The Uniques Community to enrich student understanding of various developer products and platforms. These interactive workshops and events offer invaluable opportunities for students to learn and develop within a supportive peer-to-peer environment.",
-      icon: IoIosSchool
+
     },
     {
       imgs: img10,
       title: "Lead Project Development Initiatives",
       description:
         "Collaborate with local organizations to identify project opportunities and spearhead collective project development initiatives. By closely partnering with local entities, Uniques Community Ambassadors can facilitate impactful projects that benefit both students and the broader community.",
-      icon: IoIosRocket
+
     },
   ];
   const extractedData1 = [
