@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Mentors = () => {
+const Mentors = ({speakers, type}) => {
     const organizers = [
         {
             id: 1,
-            image: "https://gdgchandigarh.com/assets/speakers/anubhav-singh.jpg",
-            name: "Kamal Vaid",
-            company: "Infosys",
-            designation: "Technology Lead",
+            image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_400,q_auto:good,w_400/v1/gcs/platform-data-goog/events/Copy%2520of%2520WTM%2520IWD%25202024%2520-%2520Profile%2520Avatar%2520%25282%2529.jpg",
+            name: "Loveleen Kaur",
+            company: "Astrotalk",
+            designation: "Senior Software Engineer",
             profile: "",
             twitter: "https://twitter.com/cammykamal",
             linkedin: "https://www.linkedin.com/in/kamal-vaid/",
@@ -15,10 +15,10 @@ const Mentors = () => {
         },
         {
             id: 2,
-            image: "https://gdgchandigarh.com/assets/speakers/anubhav-singh.jpg",
-            name: "Yatin Nayyar",
-            company: "Wipro",
-            designation: "Project Engineer",
+            image: "https://gdgchandigarh.com/assets/organizers/Pranav.png",
+            name: "Pranav Kumar",
+            company: "Nagarro",
+            designation: "Sen. Engineerr",
             profile: "",
             twitter: "https://twitter.com/hifiveyatin",
             linkedin: "https://www.linkedin.com/in/hifiveyatin/",
@@ -26,10 +26,10 @@ const Mentors = () => {
         },
         {
             id: 3,
-            image: "https://gdgchandigarh.com/assets/speakers/anubhav-singh.jpg",
-            name: "Loveleen Kaur",
-            company: "Astrotalk",
-            designation: "Senior Engineer",
+            image: "https://gdgchandigarh.com/assets/organizers/Aashi.jpeg",
+            name: "Aashi Dutt",
+            company: "MedEnGauge Healthcare Pvt Ltd",
+            designation: "Co-Founderr",
             profile: "",
             twitter: "https://twitter.com/loveleen_nancy",
             linkedin: "https://www.linkedin.com/in/loveleen-kaur/",
@@ -38,10 +38,10 @@ const Mentors = () => {
         },
         {
             id: 4,
-            image: "https://gdgchandigarh.com/assets/speakers/anubhav-singh.jpg",
-            name: "Pranav Kumar Verma",
-            company: "Nagarro",
-            designation: "Senior Engineer",
+            image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-08-04%2520at%252017.32.11.jpeg",
+            name: "Nitin Tiwari",
+            company: "LTIMindtree",
+            designation: "Software Engineerr",
             profile: "",
             linkedin: "https://www.linkedin.com/in/pranav-kumar-verma/",
             twitter: "https://twitter.com/prnvkmr954",
@@ -49,10 +49,10 @@ const Mentors = () => {
         },
         {
             id: 5,
-            image: "https://gdgchandigarh.com/assets/speakers/anubhav-singh.jpg",
-            name: "Cherish Santoshi",
-            company: "DevNetwork",
-            designation: "Advisory Board Member",
+            image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-05-23%2520at%25205.28.55%2520PM%2520%25282%2529.jpeg",
+            name: "Kartik Derasari",
+            company: "Google Cloud",
+            designation: "Google Cloud Expert",
             profile: "",
             twitter: "https://twitter.com/CherishSantoshi",
             linkedin: "https://www.linkedin.com/in/cherishsantoshi/",
@@ -62,9 +62,9 @@ const Mentors = () => {
     ]
     return (
         <div className=' mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
-            {organizers.map((organizer, index) => (
+            {speakers.map((organizer, index) => (
                 <div className='bg-white rounded-md shadow-md p-6 h-full flex gap-3 items-center'>
-                    <img src={organizer.image} className='h-20 w-20 rounded-full' alt="" />
+                    <img src={organizer.image} className='h-[100px] w-[100px] rounded-full' alt="" />
                     <div>
                         <div className='mb-2'>
                             <p className="text-lg font-bold">
@@ -75,8 +75,9 @@ const Mentors = () => {
                             </p>
                         </div>
                         <p className="text-sm font-semibold text-red-800">
-                            MENTOR/JUDGE
+                            {organizer.designation}
                         </p>
+                        <p className="text-white w-fit text-sm bg-red-800 rounded-md p-1 my-2">{type}</p>
                     </div>
                 </div>
             ))}
