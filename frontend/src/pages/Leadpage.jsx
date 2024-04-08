@@ -2,6 +2,7 @@ import React from "react";
 import "../components/leads/Leadpage.css";
 import Button from "../components/leads/Button";
 import { IoMdPeople } from "react-icons/io";
+import { IoIosSchool, IoIosRocket } from 'react-icons/io';
 
 import ambass from "../assets/leads/Ambassador.png";
 import ButtonHollow from "../components/about/ButtonHollow";
@@ -12,16 +13,19 @@ function Leadpage() {
       title: "Launch or Expand Your Community Presence",
       description:
         "As a Uniques Community Ambassador, you have the chance to kickstart or enrich a student club at your university. Collaborate with university officials to establish a student club, gather a committed core team, and appoint a faculty advisor to offer guidance and assistance.",
+      icon: IoMdPeople
     },
     {
       title: "Conduct Engaging Workshops",
       description:
         "Coordinate workshops within The Uniques Community to enrich student understanding of various developer products and platforms. These interactive workshops and events offer invaluable opportunities for students to learn and develop within a supportive peer-to-peer environment.",
+      icon: IoIosSchool
     },
     {
       title: "Lead Project Development Initiatives",
       description:
         "Collaborate with local organizations to identify project opportunities and spearhead collective project development initiatives. By closely partnering with local entities, Uniques Community Ambassadors can facilitate impactful projects that benefit both students and the broader community.",
+      icon: IoIosRocket
     },
   ];
   const extractedData1 = [
@@ -103,7 +107,7 @@ function Leadpage() {
 
   return (
     <>
-      <h1 className="text-center heading m-4">The Uniques Community</h1>
+      <h1 className="text-center heading m-4 w-11/12 mx-auto">The Uniques Community</h1>
       <div className="para-div">
         <p className=" first-para">
           The Uniques Community Ambassadors are driven leaders within their
@@ -121,24 +125,25 @@ function Leadpage() {
         </p>
         <Button text="Apply now" />
       </div>
-      <div className="cards-div">
-        <h1 className=" card-heading m-4 mb-10 text-center">
-          What does a Ambassadors do?
-        </h1>
+      <div className="cards-div w-11/12 mx-auto">
+        <h1 className="card-heading m-4 mb-10 text-center sm:text-2xl lg:text-4xl">What does an Ambassador do?</h1>
         <div className="flex flex-wrap justify-evenly items-center">
           {extractedData.map((item, index) => {
+            const Icon = item.icon;
             return (
-              <div key={index} className="card p-4">
-                <IoMdPeople className="card-icon" />
-                <h3 className="card-title">{item.title}</h3>
-                <p>{item.description}</p>
+              <div key={index} className="card p-4 bg-white rounded-xl shadow-md hover:shadow-lg mx-2 my-2 w-full">
+                <Icon className="card-icon mb-2 text-4xl" />
+                <h3 className="card-title text-lg font-semibold mb-2">{item.title}</h3>
+                <p className="text-sm text-justify">{item.description}</p>
               </div>
             );
           })}
         </div>
       </div>
 
-      <div className="flex justify-center items-center ">
+
+
+      <div className="flex justify-center items-center w-11/12 mx-auto">
         <div className="page-body text-center w-[80%]   md:text-start">
           <h1 className="font-bold mb-10">Benefits of being a Lead</h1>
           <div>
@@ -181,12 +186,12 @@ function Leadpage() {
           </div>
         </div>
       </div>
-      <div className="cards-div">
+      <div className="cards-div w-11/12 mx-auto ">
         <h1 className=" card-heading m-4 mb-10 text-center">
           What is the <span className="font-bold">Criteria</span> For Being a
           Ambassador ?
         </h1>
-        <div className="flex flex-wrap justify-evenly items-center">
+        <div className="flex flex-wrap justify-evenly items-center ">
           {extractedData1.map((item, index) => {
             return (
               <div key={index} className="card p-4">
@@ -199,7 +204,7 @@ function Leadpage() {
         </div>
       </div>
 
-      <div className="second-body text-center md:text-start">
+      <div className="second-body text-center md:text-start w-11/12 mx-auto">
         <div className="left-part my-auto">
           <h1>Community Guidelines</h1>
           <p>
@@ -221,7 +226,7 @@ function Leadpage() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center w-11/12 mx-auto ">
         <div className="page-body text-center w-[80%]   md:text-start">
           <h1 className="font-bold mb-10 md:text-xl">Responsibilities of an Ambassador</h1>
 
@@ -232,7 +237,7 @@ function Leadpage() {
                   {item.title} - &nbsp;{" "}
                 </b>
                 <span>
-                 {item.description}
+                  {item.description}
                 </span>
                 <br />
                 <br />

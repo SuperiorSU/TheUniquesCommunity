@@ -1,11 +1,10 @@
-.heading{
+.heading {
     font-size: 44px;
     color: #ca0019;
     font-family: sans-serif;
 }
 
-.para-div
-{
+.para-div {
     width: 60%;
     margin: auto;
     display: flex;
@@ -13,148 +12,122 @@
     align-items: center;
 }
 
-.first-para{
+.first-para {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: normal;
 }
 
-.cards-div
-{
-  background-color: #F1F3F4;
-  padding: 50px;
-  margin-top: 50px;
+.cards-div {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 50px;
 }
 
-.card-heading
-{
+.card-heading {
     font-size: 34px;
 }
 
-.card
-{
+.card {
     width: 350px;
 }
 
-.card-icon
-{
+.card-icon {
     font-size: 40px;
 }
 
-.card-title
-{
+.card-title {
     font-size: 20px;
     color: gray;
     margin: 10px 0;
 }
 
-.page-body
-{
+.page-body {
     padding: 50px;
 }
 
-.page-body h1
-{
+.page-body h1 {
     font-size: 34px;
 }
 
-.page-body p
-{
+.page-body p {
     font-size: 18px;
     width: 60%;
     margin: 20px 0;
 }
 
-.second-body
-{
+.second-body {
     display: flex;
     padding: 50px;
     flex-wrap: wrap-reverse;
 }
 
-.left-part
-{
-    width:45%;
+.left-part {
+    width: 45%;
     padding-right: 40px;
 }
 
-.left-part h1
-{
-  font-size: 34px;
-  font-weight: 400;
+.left-part h1 {
+    font-size: 34px;
+    font-weight: 400;
 }
 
-.left-part p
-{
+.left-part p {
     font-size: 18px;
     margin: 20px 0;
 }
 
-.img-div
-{
+.img-div {
     width: 50%;
     object-fit: cover;
 }
 
-@media(max-width:1024px)
-{
-    .para-div
-    {
+@media(max-width:1024px) {
+    .para-div {
         width: 70%;
     }
 
-    .card
-    {
+    .card {
         width: 300px;
     }
 
-    .left-part
-    {
+    .left-part {
         width: 60%;
     }
 
-    .img-div
-    {
+    .img-div {
         width: 60%;
     }
 }
 
-@media(max-width:768px)
-{
-    .left-part
-    {
-        width:90%;
+@media(max-width:768px) {
+    .left-part {
+        width: 90%;
         padding-right: 20px;
     }
 
-    .img-div
-    {
+    .img-div {
         width: 100%;
     }
 
-    .page-body p
-    {
+    .page-body p {
         font-size: 16px;
         width: 80%;
     }
 }
 
-@media(max-width:500px)
-{
-    .page-body p
-    {
+@media(max-width:500px) {
+    .page-body p {
         font-size: 14px;
         width: 100%;
     }
 
-    .card
-    {
+    .card {
         width: 100%;
     }
 
-    .left-part
-    {
+    .left-part {
         padding-right: 10px;
     }
 }
