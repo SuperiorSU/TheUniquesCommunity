@@ -18,7 +18,9 @@ const Navbar = () => {
                         <img src={logo} alt="" className='w-[150px]' />
                     </Link>
                     <div className='hidden lg:flex md:flex sm:hidden'>
-                        <Button text="Login" link="#" />
+                        <Link to={'/campus-ambassador'}>
+                            <Button text="Login" link="/campus-ambassador" />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -45,7 +47,7 @@ const Navbar = () => {
                             <div className='group-hover:p-[1px] w-[163px] bg-black absolute top-[54px]'></div>
                         </li>
                     </ul>
-                    
+
 
                     <div className='flex lg:hidden md:hidden sm:flex justify-between items-center w-full py-3'>
                         <div>

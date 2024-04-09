@@ -8,8 +8,9 @@ import Touchh from '../components/about/Touchh'
 import Stories from '../components/about/Stories'
 import Lead from '../components/about/Lead'
 import Accordian from '../components/about/Accordian'
+import About1 from '../components/about/About1'
 
-const About = () => {
+const About = ({blogs}) => {
   return (
     <div className=''>
 
@@ -31,14 +32,14 @@ const About = () => {
       <Guidelines />
       <div className='p-3'></div>
       <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
-        <Stories />
+        <Stories blogs={blogs} />
       </div>
 
       <div className='p-3'></div>
       <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
         <Lead />
       </div>
-
+      <About1/>
       <div className='p-3'></div>
       <Accordian />
       <div className='p-3'></div>

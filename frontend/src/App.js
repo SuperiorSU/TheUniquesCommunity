@@ -12,10 +12,36 @@ import EventForm from './pages/EventForm';
 import EventList from './pages/EventList';
 import Event from './pages/Event';
 import Campus from './pages/Campus';
+import BlopPage from './components/Blog/BlopPage';
+import axios from 'axios'
+import { useState, useEffect } from 'react';
 
 import sm from './mantra logo.png'
+import Blogs from './pages/Blogs';
 
 function App() {
+  const [blogData, setBlogs] = useState([]);
+
+  useEffect(() => {
+    // Function to fetch blogs using Axios
+    const fetchBlogs = async () => {
+      try {
+        const response = await axios.get('https://godigitify-nexus.onrender.com/blogs');
+        // Set the fetched blogs to the component state
+        setBlogs(response.data);
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      }
+    };
+
+    // Call the fetchBlogs function when the component mounts
+    fetchBlogs();
+  }, []);
+  const handleClick = () => {
+    // Scroll smoothly to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  };
 
   const event = [
     {
@@ -483,44 +509,52 @@ function App() {
       children: [
         {
           path: '/',
-          element: <About />
+          element: <About blogs={blogData}  handleClick={handleClick}/>
         },
         {
           path: '/clubs',
-          element: <Clubs event={event} />
+          element: <Clubs event={event}  handleClick={handleClick}/>
 
         },
         {
           path: '/communityguidelines',
-          element: <CommGuide />
+          element: <CommGuide  handleClick={handleClick}/>
         },
         {
           path: '/leads',
-          element: <Leadpage />
+          element: <Leadpage handleClick={handleClick} />
         },
         {
           path: '/campus-ambassador',
-          element: <Ambassador />
+          element: <Ambassador handleClick={handleClick} />
         },
         {
           path: '/campus-ambassador/member-request',
-          element: <MemberRequests />
+          element: <MemberRequests handleClick={handleClick} />
         },
         {
           path: '/campus-ambassador/create-event',
-          element: <EventForm />
+          element: <EventForm  handleClick={handleClick}/>
         },
         {
           path: '/campus-ambassador/event-list',
-          element: <EventList />
+          element: <EventList  handleClick={handleClick}/>
         },
         {
           path: '/campus-ambassador/event/:id',
-          element: <Event events={event} />
+          element: <Event events={event}  handleClick={handleClick}/>
         },
         {
           path: '/chapter',
-          element: <Campus event={event} />
+          element: <Campus event={event}  handleClick={handleClick}/>
+        },
+        {
+          path: '/blogs',
+          element: <Blogs  blogs={blogData} handleClick={handleClick}/>
+        },
+        {
+          path: '/blogs/:blogTitle',
+          element: <BlopPage  blogs={blogData} handleClick={handleClick}/>
         },
       ]
     }

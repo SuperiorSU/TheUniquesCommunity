@@ -28,6 +28,21 @@ const EventList = () => {
 
   return (
     <div className="w-11/12 mx-auto py-8 min-h-[100vh]">
+
+      <div className="w-full mx-auto h-[50vh] flex items-center rounded-md my-6 shadow-md" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`, backgroundSize: "cover", backgroundPosition: "center bottom" }}>
+        <div className="h-full w-full bg-[#000000ca] text-white flex items-center rounded-md shadow-md">
+          <div className='p-8'>
+            <p className="text-3xl font-bold">
+              Hello <span className='text-red-600'>Ronit Jaiprakash</span>
+            </p>
+            <p className="text-md font-semibold">
+              Campus Amabassador @ <span className='text-red-600'>SVIET</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
       <h1 className="text-2xl lg:text-4xl font-bold mb-4">Event List</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {events.map(event => (

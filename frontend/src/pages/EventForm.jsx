@@ -3,16 +3,18 @@ import React from 'react';
 const EventForm = () => {
     return (
         <div className="w-11/12 mx-auto py-8">
-            <div className="py-12">
-                <div className='p-8'>
-                    <p className="text-3xl font-bold">
-                        Hello <span className='text-red-800'>Firstname Lastname</span>
-                    </p>
-                    <p className="text-md font-semibold">
-                        Campus Amabassador <span className='text-red-800'>Campus Name</span>
-                    </p>
-                </div>
-            </div>
+            <div className="w-full mx-auto h-[50vh] flex items-center rounded-md my-6 shadow-md" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`, backgroundSize: "cover", backgroundPosition: "center bottom" }}>
+        <div className="h-full w-full bg-[#000000ca] text-white flex items-center rounded-md shadow-md">
+          <div className='p-8'>
+            <p className="text-3xl font-bold">
+              Hello <span className='text-red-600'>Ronit Jaiprakash</span>
+            </p>
+            <p className="text-md font-semibold">
+              Campus Amabassador @ <span className='text-red-600'>SVIET</span>
+            </p>
+          </div>
+        </div>
+      </div>
             
             <form className="w-11/12 p-8 mx-auto shadow-md rounded-md">
             <h1 className="text-2xl font-bold">Event Form</h1>
