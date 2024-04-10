@@ -18,6 +18,7 @@ import { useState, useEffect } from 'react';
 
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
+import Lead from './pages/Lead';
 
 function App() {
   const [blogData, setBlogs] = useState([]);
@@ -557,6 +558,10 @@ function App() {
         {
           path: '/blogs/:blogTitle',
           element: <BlopPage  blogs={blogData} handleClick={handleClick}/>
+        },
+        {
+          path: '/lead-application',
+          element: <Lead  blogs={blogData} handleClick={handleClick}/>
         },
       ]
     }

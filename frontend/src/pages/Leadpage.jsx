@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/leads/Leadpage.css";
 import Button from "../components/leads/Button";
-
+import { Link } from "react-router-dom";
 import ambass from "../assets/leads/Ambassador.png";
 import ButtonHollow from "../components/about/ButtonHollow";
 import img1 from "../assets/leads/icons/hat.png";
@@ -152,7 +152,9 @@ function Leadpage() {
               thrive.
             </div>
             <div className="mt-5">
-              <Button text="Apply now" />
+             <Link to="/lead-application">
+             <Button text="Apply now" />
+             </Link>
             </div>
 
           </div>

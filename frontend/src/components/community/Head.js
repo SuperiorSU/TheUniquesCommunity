@@ -19,7 +19,7 @@ const Head = () => {
             className="mx-auto my-6 w-full leading-snug  !text-2xl lg:max-w-3xl lg:!text-4xl font-semibold capitalize"
           >
 
-           Time To Sync Up
+            Time To Sync Up
           </div>
           <div
             variant="lead"
@@ -27,7 +27,7 @@ const Head = () => {
           >
             Community guidelines for Virtual or In Person Events
           </div>
-         
+
 
         </div>
       </section>
