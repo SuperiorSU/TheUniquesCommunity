@@ -15,8 +15,9 @@ const Maps = () => {
             </div>
           </div>
           
-            <iframe className='rounded-md' title='map' width="100%" height="530px" frameborder="0"  marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773346.661584042!2d61.030191970550824!3d19.690812551779842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1712079285107!5m2!1sen!2sin"></iframe>
-        </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.6575004818983!2d76.67317797633476!3d30.530722495366273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc2e25466d5e7%3A0xf0bbb65fa7fca376!2sSwami%20Vivekanand%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1712742095475!5m2!1sen!2sin" width="100%" height="600"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+        </div>  
     </div>
   )
 }

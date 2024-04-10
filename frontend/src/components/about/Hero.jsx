@@ -4,22 +4,45 @@ import ButtonHollow from './ButtonHollow';
 import gif from '../../assets/about/gif.gif'
 import logo from '../../assets/about/theuniquesCommunity.png'
 
+import heroGif from '../../assets/about/hero.gif'
 
 const Hero = () => {
   return (
-    <div className='w-11/12 mx-auto bg-[#fdfdfd] grid grid-cols-1 md:grid-cols-2 gap-8 py-12'>
-      <div className='w-full flex flex-col justify-center'>
-        <div className=' text-center lg:ps-6 lg:text-start md:text-start sm:text-center mb-3'><img src={logo} className='mx-auto sm:mx-0' width={250} /></div>
-        <p className=' mt-5 text-center text-sm lg:ps-6 lg:text-start sm:text-center md:text-justify'>The Uniques Community is more than just a collective; it's a vibrant and dynamic ecosystem dedicated to nurturing innovation, collaboration, and personal development among its members. As a cornerstone of our ethos, we strive to create an environment where individuals from diverse backgrounds come together to share ideas, inspire one another, and push the boundaries of what's possible.</p>
-        <div className='my-5 py-5 flex gap-x-1 justify-center lg:justify-start md:justify-start lg:ps-6'>
+    <header className="bg-white p-8" >
+      <div className="grid mt-16 min-h-[60vh] w-full lg:h-[54rem] md:h-[34rem] place-items-stretch bg-center bg-contain bg-no-repeat">
+        <div className="container mx-auto px-4 text-center">
+          <div className="inline-flex text-md rounded-lg  border-blue-gray-50 bg-red-800 text-white py-1 lg:px-4 px-1 font-medium">
+            Welcome to <span className='tex'> TheUniques </span> Community
+          </div>
+          <div
+
+            color="blue-gray"
+            className="mx-auto my-6 w-full leading-snug  !text-2xl lg:max-w-3xl lg:!text-5xl font-semibold"
+          >
+            Fostering Innovation By Learning, Growing & <span className='text-red-800'>Creating</span>
+
+            Together
+          </div>
+          <div
+            variant="lead"
+            className="mx-auto w-full !text-gray-500 lg:text-lg text-base"
+          >
+            A vibrant and dynamic ecosystem dedicated to nurturing innovation, collaboration, and personal development among its members.
+          </div>
+
+        </div>
+        <div className="flex justify-center flex-wrap gap-6 py-6">
           <Button text='Lead a Club' link="/leads" />
           <ButtonHollow text='Join a Club' link="/clubs" />
         </div>
+        <div className="mt-8 grid w-full place-items-start md:justify-center">
+          <div className="mb-2 flex w-full flex-col gap-4 md:flex-row">
+            <img src={heroGif} alt="" srcset="" />
+
+          </div>
+        </div>
       </div>
-      <div className='w-full'>
-        <img src={gif} width={350} className='object-contain mt-7 mx-auto' alt="" />
-      </div>
-    </div>
+    </header>
   )
 }
 

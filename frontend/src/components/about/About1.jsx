@@ -6,12 +6,12 @@ import { faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 const About1 = () => {
   return (
     <>
-       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
+      <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="w-10/12 mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
-            <div className="w-full px-4 lg:w-6/12">
+            <div className="w-full px-4 lg:w-4/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
-                
+
                 <div className="w-full px-5">
                   <div className="relative z-10 my-4">
                     <img
@@ -594,10 +594,10 @@ const About1 = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-8/12">
               <div className="mt-10 lg:mt-0">
                 <p className="mb-5 text-md lg:text-xl font-semibold">
-                    Our Founder
+                  Our Founder
                 </p>
                 <h2 className="mb-5 text-xl font-medium text-red-800  sm:text-[36px]/[48px]">
                   Transformative Leadership Shaping Tomorrow's Innovators.
@@ -613,9 +613,9 @@ const About1 = () => {
                 </p>
 
                 <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-end">
-                    <span className=" text-[#3F2455] block mb-1 text-md font-medium text-primary">
-                      Ankur Gill
-                    </span>
+                  <span className=" text-[#3F2455] block mb-1 text-md font-medium text-primary">
+                    Ankur Gill
+                  </span>
 
 
                 </div>
@@ -623,10 +623,10 @@ const About1 = () => {
                   CEO & Founder
                 </span>
                 <div className="flex items-center justify-center gap-x-6 lg:justify-end">
-                  
-                 <a href="https://www.linkedin.com/in/ankurgillofficial/" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faLinkedin} className="text-2xl mr-4" /></a>
-                 <a href="https://x.com/ankurgilloffice?t=Q9rKwJBOny0ARjrfK-Z2jg&s=09" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faXTwitter} className="text-2xl mr-4" /></a>
-                
+
+                  <a href="https://www.linkedin.com/in/ankurgillofficial/" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faLinkedin} className="text-2xl mr-4" /></a>
+                  <a href="https://x.com/ankurgilloffice?t=Q9rKwJBOny0ARjrfK-Z2jg&s=09" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faXTwitter} className="text-2xl mr-4" /></a>
+
                 </div>
               </div>
             </div>

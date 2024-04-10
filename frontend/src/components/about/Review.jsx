@@ -1,5 +1,5 @@
 import React from "react";
-import stand from "../../assets/about/stand.png";
+import stand from "../../assets/about/transit.gif";
 import { FaQuoteLeft } from "react-icons/fa";
 const Review = () => {
   return (
