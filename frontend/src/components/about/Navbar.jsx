@@ -62,23 +62,23 @@ const Navbar = () => {
                     <div className='absolute w-full top-0 p-5 bg-white shadow-sm z-10'>
                         <ul className='flex  flex-col gap-y-3 justify-center items-center'>
                             <li className='py-4 group'>
-                                <Link to="/">About</Link>
+                                <Link onClick={clickHandle} to="/">About</Link>
                                 <div className='group-hover:p-[1px] w-[45px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>
-                                <Link to="/clubs">Clubs</Link>
+                                <Link onClick={clickHandle} to="/clubs">Clubs</Link>
                                 <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>
-                                <Link to="#">Leads</Link>
+                                <Link onClick={clickHandle} to="/leads">Leads</Link>
                                 <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>
-                                <Link to="#">Community Guidelines</Link>
+                                <Link onClick={clickHandle} to="/communityguidelines">Community Guidelines</Link>
                                 <div className='group-hover:p-[1px] w-[163px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>
-                                <Link to="#">Login</Link>
+                                <Link onClick={clickHandle} to="/campus-ambassado">Login</Link>
                                 <div className='group-hover:p-[1px] w-[163px] bg-black absolute top-[54px]'></div>
                             </li>
                         </ul>
