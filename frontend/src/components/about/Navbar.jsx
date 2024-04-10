@@ -11,7 +11,7 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <div className=' w-full bg-white z-50'>
+        <div className=' w-full bg-white z-50 shadow-md fixed mb-20'>
             <div className="w-full mx-auto hidden lg:block py-3 border-b">
                 <div className="w-11/12 mx-auto flex justify-between">
                     <Link to='/'>
@@ -35,11 +35,11 @@ const Navbar = () => {
                             <div className='group-hover:p-[1px] w-[45px] bg-black absolute top-[54px]'></div>
                         </li>
                         <li className='py-4 group mr-5'>
-                            <Link to="/clubs">Clubs</Link>
+                            <Link to="/clubs">Community</Link>
                             <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                         </li>
                         <li className='py-4 group mr-5'>
-                            <Link to="/leads">Leads</Link>
+                            <Link to="/leads">Become an Ambassador</Link>
                             <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                         </li>
                         <li className='py-4 group mr-5'>
@@ -70,7 +70,7 @@ const Navbar = () => {
                                 <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>
-                                <Link onClick={clickHandle} to="/leads">Leads</Link>
+                                <Link onClick={clickHandle} to="/leads">Become an Ambassador</Link>
                                 <div className='group-hover:p-[1px] w-[40px] bg-black absolute top-[54px]'></div>
                             </li>
                             <li className='py-4 group'>

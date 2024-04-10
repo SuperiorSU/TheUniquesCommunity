@@ -495,7 +495,9 @@ function App() {
     return (
       <div>
         <Navbar />
+        <div className='pt-20'>
         <Outlet />
+        </div>
         <Foot />
       </div>
     )
