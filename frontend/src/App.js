@@ -582,7 +582,7 @@ function App() {
       id: 7,
       chapter: "The Uniques | SVIET",
       headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
-      logo: sm,
+      logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
       name: "Code Quest",
       date: "April 23, 2023",
       venue: "SVIET Campus",
