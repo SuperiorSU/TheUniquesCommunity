@@ -10,7 +10,7 @@ import Mentors from '../components/chapter/Mentors'
 import Faculty from '../components/chapter/Faculty'
 
 
-const Campus = ({event, handleClick}) => {
+const Campus = ({ event, handleClick }) => {
 
     const chapter = {
         name: "TheUniques | SVIET",
@@ -51,7 +51,6 @@ const Campus = ({event, handleClick}) => {
                 </div>
                 <div className='w-full lg:w-2/3 pr-0 lg:pr-6'>
                     <Overview />
-
                 </div>
 
 

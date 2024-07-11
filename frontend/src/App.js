@@ -49,7 +49,7 @@ function App() {
       id: 4,
       chapter: "The Uniques | SVIET",
       headerImage: "https://media.licdn.com/dms/image/D5622AQEEj3rY4VRJYA/feedshare-shrink_2048_1536/0/1711181295676?e=1715212800&v=beta&t=biU5tSaDzVZaV1pV-xeNvlSmvUY9ZilyuZ1C0ZLtnT8",
-      logo: "https://media.licdn.com/dms/image/D4E22AQHG3lpve4KsoA/feedshare-shrink_1280/0/1710927341125?e=1715212800&v=beta&t=3Xj3TaewuFj1Lgo7luHp8duirsCX7vLgiDmUjg2uQFw",
+      logo: "https://utfs.io/f/74f856b6-e718-40b7-af4d-8d161c8617e5-kk28nx.jpeg",
       name: "Global Future Submit 2024",
       date: "23rd March 2024",
       venue: "SVIET Auditorium",
@@ -530,7 +530,102 @@ function App() {
         "https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg"
       ]
     },
+{
+      id: 7,
+      chapter: "The Uniques | SVIET",
+      headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
+      logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
+      name: "Code Quest",
+      date: "April 23, 2023",
+      venue: "SVIET Campus",
+      overview: " Code Quest is an in-house hackathon designed to foster creativity,technical prowess, and a competitive spirit among students. With themotto Craft. Code. Conquer. this event aims to provide participants withan immersive experience mirroring real-world hackathons. It is specificallytailored for students from the Uniques 2.0, Uniques 3.0, and Super60batches, offering them a platform to enhance their competitive andtechnical skills.",
+      speakers: [
+        {
+          id: 1,
+          image: "https://utfs.io/f/674ba343-38c5-4095-a861-0b2aced3584e-n1bot4.jpeg",
+          name: "Ankur Gill",
+          company: "SVIET",
+          designation: "Director of Operations",
+          profile: "",
+          twitter: "https://twitter.com/cammykamal",
+          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        },
+        {
+          id: 2,
+          image: "https://utfs.io/f/94494773-7502-429c-84f6-425ec7293aeb-dhym4t.jpg",
+          name: "Vishal Garg",
+          company: "SVIET",
+          designation: "Director Secretarial",
+          profile: "",
+          twitter: "https://twitter.com/cammykamal",
+          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        }
 
+      ],
+      eventType: [
+        "Speaker Session", "Tech Talk", "AI",
+        "Android",
+        "Cloud",
+        "Machine Learning",
+        "Mobile",
+        "Web",
+        "Women Techmakers"
+      ],
+      guest_type: "Chief Guest",
+        partners: [
+          "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
+        ]
+    },
+    {
+      id: 7,
+      chapter: "The Uniques | SVIET",
+      headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
+      logo: sm,
+      name: "Code Quest",
+      date: "April 23, 2023",
+      venue: "SVIET Campus",
+      overview: " Code Quest is an in-house hackathon designed to foster creativity,technical prowess, and a competitive spirit among students. With themotto Craft. Code. Conquer. this event aims to provide participants withan immersive experience mirroring real-world hackathons. It is specificallytailored for students from the Uniques 2.0, Uniques 3.0, and Super60batches, offering them a platform to enhance their competitive andtechnical skills.",
+      speakers: [
+        {
+          id: 1,
+          image: "https://utfs.io/f/674ba343-38c5-4095-a861-0b2aced3584e-n1bot4.jpeg",
+          name: "Ankur Gill",
+          company: "SVIET",
+          designation: "Director of Operations",
+          profile: "",
+          twitter: "https://twitter.com/cammykamal",
+          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        },
+        {
+          id: 2,
+          image: "https://utfs.io/f/94494773-7502-429c-84f6-425ec7293aeb-dhym4t.jpg",
+          name: "Vishal Garg",
+          company: "SVIET",
+          designation: "Director Secretarial",
+          profile: "",
+          twitter: "https://twitter.com/cammykamal",
+          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        }
+
+      ],
+      eventType: [
+        "Speaker Session", "Tech Talk", "AI",
+        "Android",
+        "Cloud",
+        "Machine Learning",
+        "Mobile",
+        "Web",
+        "Women Techmakers"
+      ],
+      guest_type: "Chief Guest",
+      partners: [
+        "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
+      ]
+    },
   ]
 
   const Layout = () => {

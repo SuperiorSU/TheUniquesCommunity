@@ -4,8 +4,8 @@ const Mentors = () => {
     const organizers = [
         {
             id: 1,
-            image: "https://gdgchandigarh.com/assets/volunteers/Ronit%20Jai%20Prakash.jpg",
-            name: "Ronit Jai Prakash",
+            image: "https://utfs.io/f/9532b64d-654f-448d-bfa1-3d021691c382-2bqkn9.jpeg",
+            name: "Mantasha Tabassum",
 
             designation: "Campus Lead",
             profile: "",
@@ -15,8 +15,8 @@ const Mentors = () => {
         },
         {
             id: 2,
-            image: "https://gdgchandigarh.com/assets/volunteers/Priyanshi.jpg",
-            name: "Priyanshi Sharma",
+            image: "https://utfs.io/f/8ebe1126-7f82-48cc-9f63-474406c8450c-1t0ija.png",
+            name: "Abhishek Saini",
             company: "Wipro",
             designation: "Campus Co Lead",
             profile: "",
