@@ -4,7 +4,7 @@ const Faculty = () => {
     const organizers = [
         {
             id: 1,
-            image: "https://media.licdn.com/dms/image/D5603AQGy5zkY1c0wXg/profile-displayphoto-shrink_100_100/0/1710042388840?e=1718236800&v=beta&t=5GISs6q5t7rh51a7buKeTbD7y664kyuff5q0n36yEGg",
+            image: "https://utfs.io/f/674ba343-38c5-4095-a861-0b2aced3584e-n1bot4.jpeg",
             name: "Mr. Ankur Gill",
 
             designation: "Faculty Co-ordinator",
