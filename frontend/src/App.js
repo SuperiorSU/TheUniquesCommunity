@@ -15,7 +15,7 @@ import Campus from './pages/Campus';
 import BlopPage from './components/Blog/BlopPage';
 import axios from 'axios'
 import { useState, useEffect } from 'react';
-
+import cc from './components/events/code-crusade3.jpg'
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
 import Lead from './pages/Lead';
@@ -582,7 +582,7 @@ function App() {
       id: 8,
       chapter: "The Uniques | SVIET",
       headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
-      logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
+      logo: cc,
       name: "Code Crusade",
       date: "April 23, 2023",
       venue: "SVIET Campus",
