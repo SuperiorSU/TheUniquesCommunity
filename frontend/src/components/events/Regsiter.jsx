@@ -1,7 +1,7 @@
 import { CalendarDaysIcon, MapIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 
-const Regsiter = ({date,venue}) => {
+const Regsiter = ({date,venue,}) => {
   return (
     <div className='w-10/12 mx-auto bg-white p-4 rounded-md shadow-md flex flex-wrap-reverse justify-between items-center'>
       <div className='flex flex-wrap gap-3'>

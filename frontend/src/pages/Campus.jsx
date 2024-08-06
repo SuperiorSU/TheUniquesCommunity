@@ -8,7 +8,8 @@ import Slick2 from '../components/clubs/Slick2'
 import Slick from '../components/chapter/Slick'
 import Mentors from '../components/chapter/Mentors'
 import Faculty from '../components/chapter/Faculty'
-
+import UpcomingCard from '../components/events/UpcomingCard'
+import cc from '../components/events/code-crusade3.jpg'
 
 const Campus = ({ event, handleClick }) => {
 
@@ -55,6 +56,12 @@ const Campus = ({ event, handleClick }) => {
 
 
 
+            </div>
+            <div className='p-16'>
+                <UpcomingCard img={cc}
+                link="/campus-ambassador/event/8"
+                    title="Code Crusade 3.0"
+                 description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."/>
             </div>
             <div className="w-10/12 mx-auto">
                 <Mentors />
