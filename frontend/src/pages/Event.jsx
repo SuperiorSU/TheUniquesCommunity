@@ -98,6 +98,7 @@ const Event = ({ events }) => {
     const { id } = useParams()
     const event = events.find(singleEvent => singleEvent.id === parseInt(id))
     console.log(event)
+
     return (
         <div className='bg-gray-100 pb-12'>
             <Header header={event.headerImage} />
@@ -114,7 +115,7 @@ const Event = ({ events }) => {
                 </div>
             </div>
             <div className="w-10/12 mx-auto">
-                {event.speakers.length > 0 && <Mentors mentors={event.speakers} />}
+                {event.speakers.length > 0 && <Mentors speakers={event.speakers} type={event.guest_type} />}
                 {event.partners.length > 0 && <Partners partners={event.partners} />}
             </div>
         </div>

@@ -16,10 +16,11 @@ import BlopPage from './components/Blog/BlopPage';
 import axios from 'axios'
 import { useState, useEffect } from 'react';
 import cc from './components/events/code-crusade3.jpg'
-import cc2 from '../src/components/events/cc3.jpg'
+import cc2 from './components/events/cc3.jpg'
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
 import Lead from './pages/Lead';
+import CommingEvent from './pages/CommingEvents';
 
 function App() {
   const [blogData, setBlogs] = useState([]);
@@ -44,6 +45,34 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
   };
+
+  const commingEvents = [
+    {
+      id: 8,
+      chapter: "The Uniques | SVIET",
+      headerImage: cc2,
+      logo: cc,
+      name: "Code Crusade",
+      date: "April 23, 2023",
+      venue: "SVIET Campus",
+      overview: "Welcome to Code Crusade, an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques. Join us to sharpen your coding skills, enhance logical reasoning, and connect with a vibrant community.",
+      speakers: [],
+      eventType: [
+        "IntroToCoding", "FreshersEvent", "HandsOnProgramming",
+        "LogicalReasoning",
+        "Python",
+        "CodingWorkshops",
+        "ProblemSolving",
+        "Mentorship",
+        "CodingContests",
+        "RealWorldCoding",
+        "ProgrammingSkills",
+        "TechCommunity"
+      ],
+      guest_type: "Chief Guest",
+      partners: []
+    },
+  ]
 
   const event = [
     {
@@ -630,7 +659,7 @@ function App() {
         },
         {
           path: '/clubs',
-          element: <Clubs event={event} handleClick={handleClick} />
+          element: <Clubs commingEvents={commingEvents} event={event} handleClick={handleClick} />
 
         },
         {
@@ -659,7 +688,11 @@ function App() {
         },
         {
           path: '/campus-ambassador/event/:id',
-          element: <Event events={event} handleClick={handleClick} />
+          element: <Event  events={event} handleClick={handleClick} />
+        },
+        {
+          path: '/campus-ambassador/commingevent/:id',
+          element: <CommingEvent  events={commingEvents} handleClick={handleClick} />
         },
         {
           path: '/chapter',

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { BiSolidLeftArrowSquare } from "react-icons/bi";
 import { BiSolidRightArrowSquare } from "react-icons/bi";
 
-const Slick = ({ events }) => {
+const SlickComming = ({ events }) => {
   const data = [
     {
       id: "a1",
@@ -98,7 +98,7 @@ const Slick = ({ events }) => {
       {events.length > 3 ? (
         <Slider {...settings}>
           {events.map((item) => (
-            <Link key={item.id} to={`/campus-ambassador/event/${item.id}`}>
+            <Link key={item.id} to={`/campus-ambassador/commingevent/${item.id}`}>
               <div className="md:pr-3 py-2">
                 <div className="bg-white flex flex-col p-3 mx-auto sm:mx-0 md:mx-0 lg:mx-0 justify-around rounded-md shadow-md outline-2 h-[300px]">
                   {/* for image and title */}
@@ -136,7 +136,7 @@ const Slick = ({ events }) => {
         </Slider>
       ) : (
         events.map((item) => (
-          <Link key={item.id} to={`/campus-ambassador/event/${item.id}`}>
+          <Link key={item.id} to={`/campus-ambassador/commingevent/${item.id}`}>
             <div className="md:pr-3 w-4/12 py-2">
               <div className="bg-white flex flex-col p-3 mx-auto sm:mx-0 md:mx-0 lg:mx-0 justify-around rounded-md shadow-md outline-2 h-[300px]">
                 {/* for image and title */}
@@ -176,4 +176,4 @@ const Slick = ({ events }) => {
   );
 };
 
-export default Slick;
+export default SlickComming;

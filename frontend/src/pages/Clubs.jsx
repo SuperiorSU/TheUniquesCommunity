@@ -2,9 +2,10 @@ import React from "react";
 import clubheaderbg from "../assets/clubs/clubheaderbg.jpg";
 import Slick from "../components/chapter/Slick";
 import { Link } from "react-router-dom";
-import Slick2 from "../components/clubs/Slick2";
+
+import SlickComming from "../components/chapter/SlickComming";
 import spon from './tus.png'
-const Clubs = ({ event, handleClick }) => { // comming from app.js
+const Clubs = ({ event, commingEvents, handleClick }) => { // comming from app.js
   const chapter = {
     name: "TheUniques | SVIET",
     logo: spon,
@@ -80,6 +81,11 @@ const Clubs = ({ event, handleClick }) => { // comming from app.js
         </div>
       </div>
       <div className="w-11/12 mx-auto pb-12">
+        
+        <SlickComming events={commingEvents} />
+      </div>
+      <div className="w-11/12 mx-auto pb-12">
+        
         <Slick events={event} />
       </div>
 
