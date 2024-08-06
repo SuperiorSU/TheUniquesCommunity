@@ -48,7 +48,7 @@ const Campus = ({ event, handleClick }) => {
             <div className='w-10/12 my-6  mx-auto flex flex-row-reverse flex-wrap'>
                 <div className='w-full lg:w-1/3 '>
 
-                    <Eligibility event="Code Crusade 3.0" chapter="The Uniques Chapter | SVIET" link={`/campus-ambassador/event/8`}/>
+                    <Eligibility event="Code Crusade 3.0" chapter="The Uniques Chapter | SVIET" link={`/campus-ambassador/commingevent/8`}/>
                 </div>
                 <div className='w-full lg:w-2/3 pr-0 lg:pr-6'>
                     <Overview />
@@ -59,7 +59,7 @@ const Campus = ({ event, handleClick }) => {
             </div>
             <div className='p-16'>
                 <UpcomingCard img={cc}
-                link="/campus-ambassador/event/8"
+                link="/campus-ambassador/commingevent/8"
                     title="Code Crusade 3.0"
                  description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."/>
             </div>

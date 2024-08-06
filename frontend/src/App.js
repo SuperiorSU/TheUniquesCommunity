@@ -608,31 +608,7 @@ function App() {
         "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
       ]
     },
-    {
-      id: 8,
-      chapter: "The Uniques | SVIET",
-      headerImage: cc2,
-      logo: cc,
-      name: "Code Crusade 3.0",
-      date: "Comming Soon",
-      venue: "SVIET Campus",
-      overview: "Welcome to Code Crusade, an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques. Join us to sharpen your coding skills, enhance logical reasoning, and connect with a vibrant community.",
-      speakers: [],
-      eventType: [
-        "IntroToCoding", "FreshersEvent", "HandsOnProgramming",
-        "LogicalReasoning",
-        "Python",
-        "CodingWorkshops",
-        "ProblemSolving",
-        "Mentorship",
-        "CodingContests",
-        "RealWorldCoding",
-        "ProgrammingSkills",
-        "TechCommunity"
-      ],
-      guest_type: "Chief Guest",
-      partners: []
-    },
+    
   ]
 
   const Layout = () => {
