@@ -47,7 +47,7 @@ const Campus = ({ event, handleClick }) => {
             <div className='w-10/12 my-6  mx-auto flex flex-row-reverse flex-wrap'>
                 <div className='w-full lg:w-1/3 '>
 
-                    <Eligibility />
+                    <Eligibility event="Code Crusade 3.0" chapter="The Uniques Chapter | SVIET" link={`/campus-ambassador/event/8`}/>
                 </div>
                 <div className='w-full lg:w-2/3 pr-0 lg:pr-6'>
                     <Overview />

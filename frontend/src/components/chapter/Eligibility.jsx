@@ -1,13 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-const Eligibility = () => {
+const Eligibility = (props) => {
+  const {link, event, chapter}  = props;
   return (
     <div className=' text-white bg-red-800 rounded-md mx-auto p-6 my-6 lg:my-0'>
       <p className="text-lg font-bold mb-3">
-        Upcoming Events
+        {event?"Upcoming Events":"No Events"}
       </p>
+      <Link to={link}>
       <p className="text-md font-medium text-justify">
-      The Uniques SVIET Chapter<br/><span className="font-bold mt-3"> Code Crusade 3.0 </span> </p>
+      {chapter}<br/>
+        <span className="font-bold mt-3">{event}</span> </p>
+      </Link>
     </div>
   )
 }
