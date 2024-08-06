@@ -9,6 +9,11 @@ import ideathon from "../../assets/clubs/ideathon.jpg"
 import globalSummit from "../../assets/clubs/google_sumit_pic[1].jpg"
 import IOextended from "../../assets/clubs/IOextended.jpg"
 import { Link } from 'react-router-dom';
+import { BiSolidLeftArrowSquare } from "react-icons/bi";
+import { BiSolidRightArrowSquare } from "react-icons/bi";
+
+
+
 const Slick = ({ events }) => {
   const data = [
     {
@@ -45,6 +50,8 @@ const Slick = ({ events }) => {
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    nextArrow: <BiSolidRightArrowSquare color='red' size={50} />,
+    prevArrow: <BiSolidLeftArrowSquare color='red' />,
     responsive: [
       {
         breakpoint: 1244,

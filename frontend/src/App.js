@@ -530,54 +530,6 @@ function App() {
         "https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-goog/contentbuilder/logo_dark_QmPdj9K.svg"
       ]
     },
-{
-      id: 7,
-      chapter: "The Uniques | SVIET",
-      headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
-      logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
-      name: "Code Quest",
-      date: "April 23, 2023",
-      venue: "SVIET Campus",
-      overview: " Code Quest is an in-house hackathon designed to foster creativity,technical prowess, and a competitive spirit among students. With themotto Craft. Code. Conquer. this event aims to provide participants withan immersive experience mirroring real-world hackathons. It is specificallytailored for students from the Uniques 2.0, Uniques 3.0, and Super60batches, offering them a platform to enhance their competitive andtechnical skills.",
-      speakers: [
-        {
-          id: 1,
-          image: "https://utfs.io/f/674ba343-38c5-4095-a861-0b2aced3584e-n1bot4.jpeg",
-          name: "Ankur Gill",
-          company: "SVIET",
-          designation: "Director of Operations",
-          profile: "",
-          twitter: "https://twitter.com/cammykamal",
-          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
-          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
-        },
-        {
-          id: 2,
-          image: "https://utfs.io/f/94494773-7502-429c-84f6-425ec7293aeb-dhym4t.jpg",
-          name: "Vishal Garg",
-          company: "SVIET",
-          designation: "Director Secretarial",
-          profile: "",
-          twitter: "https://twitter.com/cammykamal",
-          linkedin: "https://www.linkedin.com/in/kamal-vaid/",
-          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
-        }
-
-      ],
-      eventType: [
-        "Speaker Session", "Tech Talk", "AI",
-        "Android",
-        "Cloud",
-        "Machine Learning",
-        "Mobile",
-        "Web",
-        "Women Techmakers"
-      ],
-      guest_type: "Chief Guest",
-        partners: [
-          "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
-        ]
-    },
     {
       id: 7,
       chapter: "The Uniques | SVIET",
@@ -625,6 +577,31 @@ function App() {
       partners: [
         "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
       ]
+    },
+    {
+      id: 8,
+      chapter: "The Uniques | SVIET",
+      headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
+      logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
+      name: "Code Crusade",
+      date: "April 23, 2023",
+      venue: "SVIET Campus",
+      overview: "Welcome to Code Crusade, an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques. Join us to sharpen your coding skills, enhance logical reasoning, and connect with a vibrant community.",
+      speakers: [],
+      eventType: [
+        "IntroToCoding", "FreshersEvent", "HandsOnProgramming",
+        "LogicalReasoning",
+        "Python",
+        "CodingWorkshops",
+        "ProblemSolving",
+        "Mentorship",
+        "CodingContests",
+        "RealWorldCoding",
+        "ProgrammingSkills",
+        "TechCommunity"
+      ],
+      guest_type: "Chief Guest",
+      partners: []
     },
   ]
 

@@ -4,7 +4,7 @@ import Slick from "../components/chapter/Slick";
 import { Link } from "react-router-dom";
 import Slick2 from "../components/clubs/Slick2";
 import spon from './tus.png'
-const Clubs = ({ event, handleClick }) => {
+const Clubs = ({ event, handleClick }) => { // comming from app.js
   const chapter = {
     name: "TheUniques | SVIET",
     logo: spon,

@@ -114,8 +114,8 @@ const Event = ({ events }) => {
                 </div>
             </div>
             <div className="w-10/12 mx-auto">
-                <Mentors speakers={event.speakers} type={event.guest_type} />
-                <Partners partners={event.partners} />
+                {event.speakers.length > 0 && <Mentors mentors={event.speakers} />}
+                {event.partners.length > 0 && <Partners partners={event.partners} />}
             </div>
         </div>
     )
