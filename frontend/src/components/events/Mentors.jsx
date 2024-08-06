@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Mentors = ({speakers, type}) => {
+const Mentors = ({speakers , type}) => {
     const organizers = [
         {
             id: 1,
@@ -60,9 +60,10 @@ const Mentors = ({speakers, type}) => {
         },
 
     ]
+  
     return (
         <div className=' mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
-            {speakers.map((organizer, index) => (
+            {speakers.length > 0 ? ( speakers.map((organizer, index) => (
                 <div className='bg-white rounded-md shadow-md p-6 h-full flex gap-3 items-center'>
                     <img src={organizer.image} className='h-[100px] w-[100px] rounded-full' alt="" />
                     <div>
@@ -79,8 +80,8 @@ const Mentors = ({speakers, type}) => {
                         </p>
                         <p className="text-white w-fit text-sm bg-red-800 rounded-md p-1 my-2">{type}</p>
                     </div>
-                </div>
-            ))}
+                </div>)
+            )):(null)}
         </div>
     )
 }
