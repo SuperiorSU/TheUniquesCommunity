@@ -7,7 +7,7 @@ const Eligibility = () => {
         Upcoming Events
       </p>
       <p className="text-md font-medium text-justify">
-        There are no upcoming events for this chapter. <br/><span className="font-bold mt-3"> Please Try Again Later </span> </p>
+      The Uniques SVIET Chapter<br/><span className="font-bold mt-3"> Code Crusade 3.0 </span> </p>
     </div>
   )
 }

@@ -10,6 +10,7 @@ import Lead from '../components/about/Lead'
 import Accordian from '../components/about/Accordian'
 import About1 from '../components/about/About1'
 import HeroSection16 from '../components/about/HeroSection16'
+import UpcomingCard from '../components/events/UpcomingCard'
 
 const About = ({ blogs }) => {
   return (
@@ -22,6 +23,9 @@ const About = ({ blogs }) => {
 
       <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
         <Review />
+      </div>
+      <div className='lg:px-6 md:px-5 sm:px-5 px-4'>
+        <UpcomingCard/>
       </div>
 
       <div className='p-3'></div>
