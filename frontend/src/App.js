@@ -16,7 +16,7 @@ import BlopPage from './components/Blog/BlopPage';
 import axios from 'axios'
 import { useState, useEffect } from 'react';
 import cc from './components/events/code-crusade3.jpg'
-import cc2 from './components/events/cc3.jpg'
+import cc2 from './components/events/cchead.jpg'
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
 import Lead from './pages/Lead';
