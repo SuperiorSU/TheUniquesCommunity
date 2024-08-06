@@ -92,7 +92,7 @@ const SlickComming = ({ events }) => {
   return (
     <div className="slider-container mx-auto gap-3 my-6">
       <p className="text-2xl md:text-3xl font-semibold py-12">
-        Our Past Events
+        Our Comming Events
       </p>
 
       {events.length > 3 ? (
