@@ -10,7 +10,10 @@ import Mentors from '../components/events/Mentors'
 import Partners from '../components/events/Partners'
 import { useParams } from 'react-router-dom'
 const CommingEvent = ({ events }) => {
-
+    const [isOpen, setIsOpen] = React.useState(false);
+    const formHandler = () => {
+        setIsOpen(!isOpen)
+    }
     const { id } = useParams()
     const event = events.find(singleEvent => singleEvent.id === parseInt(id))
 
@@ -18,7 +21,10 @@ const CommingEvent = ({ events }) => {
         <div className='bg-gray-100 pb-12'>
             <Header header={event.headerImage} />
             <Details logo={event.logo} name={event.name} chapter={event.chapter} venue={event.venue} />
-            <Register date={event.date} venue={event.venue} />
+            <Register formHandler={formHandler} date={event.date} venue={event.venue} />
+            {
+                isOpen && event.form
+            }
             <div className='w-10/12 my-6  mx-auto flex flex-row-reverse flex-wrap'>
                 <div className='w-full lg:w-1/3 '>
 

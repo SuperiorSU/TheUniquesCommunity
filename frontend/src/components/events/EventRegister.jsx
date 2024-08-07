@@ -19,15 +19,15 @@ const EventRegister = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission
+   
     console.log('Form submitted', formData);
-    onClose(); // Close modal after submission
+    onClose();
   };
 
-  if (!isOpen) return null;
+//   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-md shadow-md w-11/12 md:w-1/3">
         <h2 className="text-xl font-semibold mb-4">Event Registration</h2>
         <form onSubmit={handleSubmit}>

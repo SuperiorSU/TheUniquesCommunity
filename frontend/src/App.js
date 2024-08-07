@@ -20,10 +20,15 @@ import cc2 from './components/events/cchead.jpg'
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
 import Lead from './pages/Lead';
+import EventRegister from './components/events/EventRegister';
 import CommingEvent from './pages/CommingEvents';
 
 function App() {
   const [blogData, setBlogs] = useState([]);
+  const [isClosed, setIsClosed] = useState(false);
+  const onOpen = () => {
+    setIsClosed(!isClosed);
+  }
 
   useEffect(() => {
     // Function to fetch blogs using Axios
@@ -57,6 +62,7 @@ function App() {
       venue: "SVIET Campus",
       overview: "Welcome to Code Crusade, an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques. Join us to sharpen your coding skills, enhance logical reasoning, and connect with a vibrant community.",
       speakers: [],
+      form: <EventRegister onClose={onOpen}/>,
       eventType: [
         "IntroToCoding", "FreshersEvent", "HandsOnProgramming",
         "LogicalReasoning",
