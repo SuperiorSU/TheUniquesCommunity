@@ -24,8 +24,6 @@ const EventRegister = ({ isOpen, onClose }) => {
     onClose();
   };
 
-//   if (!isOpen) return null;
-
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
       <div className="bg-white p-6 rounded-md shadow-md w-11/12 md:w-1/3">
