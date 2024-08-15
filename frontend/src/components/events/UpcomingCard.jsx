@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../about/Button'
-import cc from '../events/code-crusade3.jpg'
+
 const UpcomingCard = (props) => {
     const {title, img, date, description, link} = props;
   return (
