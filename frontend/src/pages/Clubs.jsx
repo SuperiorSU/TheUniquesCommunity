@@ -81,7 +81,6 @@ const Clubs = ({ event, commingEvents, handleClick }) => { // comming from app.j
         </div>
       </div>
       <div className="w-11/12 mx-auto pb-12">
-        
         <SlickComming events={commingEvents} />
       </div>
       <div className="w-11/12 mx-auto pb-12">
