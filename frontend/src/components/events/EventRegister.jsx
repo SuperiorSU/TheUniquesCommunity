@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const EventRegister = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -17,9 +19,20 @@ const EventRegister = ({ isOpen, onClose }) => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted', formData);
+   try{
+    const rees = await fetch('https://uniques-form-back.vercel.app/codeCrusade/addParticipant',{
+      method:'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+    toast.success('Registered successfully');
+   }catch(err){
+    toast.error('Failed to register !');
+   }
     onClose();
   };
 
@@ -105,6 +118,7 @@ const EventRegister = ({ isOpen, onClose }) => {
           </div>
         </form>
       </div>
+    
     </div>
   );
 };

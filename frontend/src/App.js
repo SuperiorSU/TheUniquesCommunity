@@ -22,6 +22,7 @@ import Blogs from './pages/Blogs';
 import Lead from './pages/Lead';
 import EventRegister from './components/events/EventRegister';
 import CommingEvent from './pages/CommingEvents';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [blogData, setBlogs] = useState([]);
@@ -701,6 +702,7 @@ function App() {
   return (
     <div>
       <RouterProvider router={router} />
+      <ToastContainer />
     </div>
   );
 }
