@@ -2,12 +2,10 @@ import React, { useEffect,useRef } from "react";
 import Button from "../about/Button";
 
 const UpcomingCard = (props) => {
-    const myRef = useRef(null)
-  const ScrollToElement = () => myRef.current.scrollIntoView();
-  useEffect(ScrollToElement, []);
+    
   const { title, img, date, description, link } = props;
   return (
-    <div className="p-9  relative" ref={myRef}>
+    <div className="p-9  relative">
       <div className="bg-[#ca0019] p-2 text-white absolute top-0 left-9 rounded-ee-xl">
         <p>Upcoming Event</p>
       </div>
@@ -23,7 +21,7 @@ const UpcomingCard = (props) => {
             <br />
             {description}
           </p>
-            <div onClick={ScrollToElement}>
+            <div>
             <Button text="Know More" link={link} />
             </div>
           
