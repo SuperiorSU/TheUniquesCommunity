@@ -30,11 +30,18 @@ const EventRegister = ({ isOpen, onClose }) => {
       },
       body: JSON.stringify(formData),
     })
-
-    toast.success('Registered successfully');
+    console.log(rees)
+    if(rees.status==200){
+      toast.success('Registered successfully');
+    }
+    else if(rees.status==400){
+      toast.error('Already Registered!');
+    }
     setLoading(false)
    }catch(err){
-    toast.error('Failed to register !');
+    
+    toast.error('Failed to register!');
+    console.log(err)
    }
     onClose();
   };

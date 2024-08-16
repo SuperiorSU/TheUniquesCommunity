@@ -19,11 +19,13 @@ import cc from './components/events/code-crusade3.jpg'
 import cc2 from './components/events/cchead.jpg'
 import sm from './mantra logo.png'
 import Blogs from './pages/Blogs';
+import techSyLogo from './components/events/techSyLogo.jpeg'
 import Lead from './pages/Lead';
 import EventRegister from './components/events/EventRegister';
 import CommingEvent from './pages/CommingEvents';
 import { ToastContainer } from 'react-toastify';
-
+import tus from './pages/tus.png'
+import techSy from './components/events/techSyHead.jpg'
 function App() {
   const [blogData, setBlogs] = useState([]);
   const [isClosed, setIsClosed] = useState(false);
@@ -570,6 +572,65 @@ function App() {
     {
       id: 7,
       chapter: "The Uniques | SVIET",
+      headerImage: techSy,
+      logo: techSyLogo,
+      name:"TechSynergy | The Global Spectrum",
+      date: "August, 2024",
+      venue: "SVIET Campus",
+      overview: "AN INITIATIVE TAKEN BY THE UNIQUES COMMUNITY FOR THE INTERNATIONAL STUDENTS. The Uniques Community is excited to launch TechSynergy The Global Spectrum, a 5-DAY IMMERSIVE WORKSHOP FOR NEWLY WELCOMED INTERNATIONAL STUDENTS. This initiative offers hands-on training in cutting-edge technologies, skill development, and practical experience. Join us to bridge the gap between education and industry, and take the first step towards a successful career in tech!",
+      speakers: [
+        {
+          id: 1,
+          image: "https://media.licdn.com/dms/image/v2/D4E03AQFVs9daCB5Zxg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721228570208?e=1729123200&v=beta&t=Ty0F7kvNZD9Vyd0-X0GALd15yRtR8rcdvr5-VlIiFFM",
+          name: "Martin Kariuki",
+          company: "SVIET",
+          designation: "Member: The Uniques 3.0",
+          profile: "",
+          twitter: "",
+          linkedin: "https://www.linkedin.com/in/martin-kariuki-42507b261/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        },
+        {
+          id: 2,
+          image: "https://media.licdn.com/dms/image/v2/D5603AQHrk3bG6w_f5g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719554441936?e=1729123200&v=beta&t=hZRibUSdVhv69HZAm0Iw9J1RsuRXEww5VxFTSQ0_27s",
+          name: "Anesu Muganhira",
+          company: "SVIET",
+          designation: "Member: The Uniques 3.0",
+          profile: "",
+          twitter: "",
+          linkedin: "https://www.linkedin.com/in/anesu-muganhiri-840aa8202/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        },
+        {
+          id: 3,
+          image: "https://media.licdn.com/dms/image/v2/D5635AQHvL_PHsssSAg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1721637739363?e=1724396400&v=beta&t=rqBOpPEz_2YEZSH_BbZCAjKZK-KwfP_csjTBGc-6YfE",
+          name: "Enoch Owen",
+          company: "SVIET",
+          designation: "Member: The Uniques 3.0",
+          profile: "",
+          twitter: "",
+          linkedin: "https://www.linkedin.com/in/owen-enock-nyamaropa-69976b285/",
+          bio: "Kamal loves to work and explore Android. Working as Technology Lead with 8+ years of experience, he believes in the theory of sharing whatever you have learnt from everywhere. He is a blogger and write whenever he feel he has learnt something new and that needs to be shared. He is fond of Cars and Bikes, and spend his free time in riding."
+        }
+
+      ],
+      eventType: [
+        "Speaker Session", "Tech Talk", "Workshop",
+        "Computers",
+        "Programming",
+        "Logic Building",
+        "Problem Solving",
+        "Intro Session",
+        "Initiative"
+      ],
+      guest_type: "Chief Guest",
+      partners: [
+        tus
+      ]
+    },
+    {
+      id: 8,
+      chapter: "The Uniques | SVIET",
       headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",
       logo: "https://utfs.io/f/5d0cbc74-2740-4c45-9b9e-599d97e8b535-2ge.jpg",
       name: "Code Quest",
@@ -614,7 +675,7 @@ function App() {
       partners: [
         "https://shikshaview.com/wp-content/uploads/2020/04/SVIET-transparent-Logo.png"
       ]
-    },
+    }
     
   ]
 
