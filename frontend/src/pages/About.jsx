@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Hero from "../components/about/Hero";
 import Motto from "../components/about/Motto";
 import Guidelines from "../components/about/Guidelines";
@@ -15,23 +15,30 @@ import UpcomingCard from "../components/events/UpcomingCard";
 
 
 const About = ({ blogs }) => {
+
+  
+
+  
   return (
     <div className="">
+
       <Hero />
       <div className="w-full p-[30px]"></div>
+      <div className="lg:px-6 md:px-5 sm:px-5 px-4">
+        <UpcomingCard
+        
+          img={cc}
+          date="20 August 2024"
+          link="/campus-ambassador/commingevent/8"
+          title="Code Crusade 3.0"
+          description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."
+        />
+      </div>
       <Motto />
       <div className="w-full p-[30px]"></div>
 
       <div className="lg:px-6 md:px-5 sm:px-5 px-4">
         <Review />
-      </div>
-      <div className="lg:px-6 md:px-5 sm:px-5 px-4">
-        <UpcomingCard
-          img={cc}
-          link="/campus-ambassador/commingevent/8"
-          title="Code Crusade 3.0"
-          description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."
-        />
       </div>
 
       <div className="p-3"></div>
