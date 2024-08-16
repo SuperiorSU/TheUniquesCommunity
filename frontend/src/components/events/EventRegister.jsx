@@ -10,7 +10,7 @@ const EventRegister = ({ isOpen, onClose }) => {
     branch: '',
     contactNumber: ''
   });
-
+  const [loading, setLoading] = useState(false)
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -22,6 +22,7 @@ const EventRegister = ({ isOpen, onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
    try{
+    setLoading(true)
     const rees = await fetch('https://uniques-form-back.vercel.app/codeCrusade/addParticipant',{
       method:'POST',
       headers: {
@@ -29,7 +30,9 @@ const EventRegister = ({ isOpen, onClose }) => {
       },
       body: JSON.stringify(formData),
     })
+
     toast.success('Registered successfully');
+    setLoading(false)
    }catch(err){
     toast.error('Failed to register !');
    }
@@ -113,7 +116,7 @@ const EventRegister = ({ isOpen, onClose }) => {
               type="submit"
               className="bg-red-800 text-white px-4 py-2 rounded-md"
             >
-              Register
+              {loading?"In Progress...":"Register"}
             </button>
           </div>
         </form>
