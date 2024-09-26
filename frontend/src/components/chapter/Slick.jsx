@@ -11,6 +11,7 @@ import IOextended from "../../assets/clubs/IOextended.jpg";
 import { Link } from "react-router-dom";
 import { BiSolidLeftArrowSquare } from "react-icons/bi";
 import { BiSolidRightArrowSquare } from "react-icons/bi";
+import codeCrusade from './code-crusade3.jpg'
 
 const Slick = ({ events }) => {
   const data = [
@@ -36,6 +37,12 @@ const Slick = ({ events }) => {
       id: "a4",
       image: globalSummit,
       title: "Global Future Summit 2K24",
+      date: "Mar 23",
+    },
+    {
+      id: "a5",
+      image: codeCrusade,
+      title: "Code Crusade 3.0",
       date: "Mar 23",
     },
   ];

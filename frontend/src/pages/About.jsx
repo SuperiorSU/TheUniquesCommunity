@@ -17,26 +17,26 @@ import UpcomingCard from "../components/events/UpcomingCard";
 const About = ({ blogs }) => {
 
   
-  const myRef = useRef(null)
-  const ScrollToElement = () => myRef.current.scrollIntoView();
-  useEffect(ScrollToElement, []);
+  // const myRef = useRef(null)
+  // const ScrollToElement = () => myRef.current.scrollIntoView();
+  // useEffect(ScrollToElement, []);
   
   return (
     <div className="">
       <div >
       <Hero  />
       </div>
-      <div className="w-full p-[60px]" ref={myRef}></div>
-      <div className="lg:px-6 md:px-5 sm:px-5 px-4 lg:py-6 md:py-5 sm:py-5 py-4" >
-        <UpcomingCard
+      {/* <div className="w-full p-[60px]" ref={myRef}></div> */}
+      {/* <div className="lg:px-6 md:px-5 sm:px-5 px-4 lg:py-6 md:py-5 sm:py-5 py-4" > */}
+        {/* <UpcomingCard
         
           img={cc}
           date="20 August 2024"
           link="/campus-ambassador/commingevent/8"
           title="Code Crusade 0.3"
           description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."
-        />
-      </div>
+        /> */}
+      {/* </div> */}
       <Motto />
       <div className="w-full p-[30px]"></div>
 

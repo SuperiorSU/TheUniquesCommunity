@@ -14,7 +14,7 @@ const Foot = () => {
                 <div className='w-11/12 mx-auto py-2'>
                     <div className='flex flex-wrap gap-x-3 items-center justify-between'>
                         <div className='flex gap-x-3 md:gap-x-5 lg:gap-x-7'>
-                            <img src={logo} width={120} height={120} className=' object-contain' alt="" />
+                            <img src={logo} width={100} height={100} className='lg:inline-block md:inline-block sm:inline-block object-contain' alt="" />
                             <ul className='list-none flex text-sm gap-x-2'>
                                 <li className='py-4 group mr-3'>
                                     <Link to="/">About</Link>

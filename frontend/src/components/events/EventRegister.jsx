@@ -65,9 +65,9 @@ const EventRegister = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
-      <div className="bg-white p-6 rounded-md shadow-md w-11/12 md:w-1/3">
+      <div className="bg-white p-6 rounded-md shadow-md lg:w-11/12 md:w-1/3 w-1/3">
         <h2 className="text-xl font-semibold mb-4">Event Registration</h2>
-        <form onSubmit={handleSubmit}>
+        {/* <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="email" className="block text-sm font-medium mb-1">Email Address</label>
             <input
@@ -129,7 +129,7 @@ const EventRegister = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Language Preference Radio Buttons */}
+          
           <div className="mb-4">
             <label className="block text-sm font-medium mb-1">Language Preference</label>
             <div className="flex items-center">
@@ -156,7 +156,7 @@ const EventRegister = ({ isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Laptop Availability Radio Buttons */}
+          
           <div className="mb-4">
             <label className="block text-sm font-medium mb-1">Do you have a laptop?</label>
             <div className="flex items-center">
@@ -199,7 +199,10 @@ const EventRegister = ({ isOpen, onClose }) => {
               {loading ? "In Progress..." : "Register"}
             </button>
           </div>
-        </form>
+        </form> */}
+        <p className='text-center text-3xl font-bold'><span className='text-red-500'>Oops!</span> You are late</p>
+        <p className='text-center text-xl py-4'>Registration is closed Now</p>
+        <button onClick={onClose} className='border-0 px-4 py-3 rounded-md bg-black text-white font-medium '>Close</button>
       </div>
     </div>
   );

@@ -629,6 +629,32 @@ function App() {
       ]
     },
     {
+      id: 9,
+      chapter: "The Uniques | SVIET",
+      headerImage: cc2,
+      logo: cc,
+      name: "Code Crusade 0.3",
+      date: "20 August 2024",
+      venue: "SVIET Campus",
+      overview: "Welcome to Code Crusade, an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques. Join us to sharpen your coding skills, enhance logical reasoning, and connect with a vibrant community.",
+      speakers: [],
+      form: <EventRegister onClose={onOpen}/>,
+      eventType: [
+        "IntroToCoding", "FreshersEvent", "HandsOnProgramming",
+        "LogicalReasoning",
+        "Python",
+        "CodingWorkshops",
+        "ProblemSolving",
+        "Mentorship",
+        "CodingContests",
+        "RealWorldCoding",
+        "ProgrammingSkills",
+        "TechCommunity"
+      ],
+      guest_type: "Chief Guest",
+      partners: []
+    },
+    {
       id: 8,
       chapter: "The Uniques | SVIET",
       headerImage: "https://utfs.io/f/fbba036f-3ccd-4d8d-aacd-d888c32f822a-vlrxtb.jpg",

@@ -57,12 +57,12 @@ const Campus = ({ event, handleClick }) => {
 
 
             </div>
-            <div className='p-16'>
+            {/* <div className='p-16'>
                 <UpcomingCard img={cc}
                 link="/campus-ambassador/commingevent/8"
                     title="Code Crusade 3.0"
                  description="Code Crusade is an introductory event for freshers to gain hands-on programming experience and enhance logical reasoning. Dive into languages like Python and C++, engage in practical sessions, and tackle real-world problems with guidance from experienced mentors. Participate in workshops, compete in coding contests, and test your skills through problem-solving challenges. The winner will receive direct entry into the esteemed batch, The Uniques."/>
-            </div>
+            </div> */}
             <div className="w-10/12 mx-auto">
                 <Mentors />
                 <Faculty />
